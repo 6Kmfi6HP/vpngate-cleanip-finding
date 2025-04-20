@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Constants
-VPNGATE_API_URL = "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/refs/heads/main/json/data.json"
+VPNGATE_API_URL = "https://raw.githubusercontent.com/6Kmfi6HP/Vpngate-Scraper-API/refs/heads/main/json/data.json"
 IPDATA_API_URL = "https://api.ipdata.co/{ip}"
 # IPDATA_API_KEY = os.getenv("IPDATA_API_KEY")  # You should set this in .env file
 IPDATA_API_KEY = "eca677b284b3bac29eb72f5e496aa9047f26543605efe99ff2ce35c9"
@@ -88,10 +88,10 @@ def main():
         response.raise_for_status()
         vpn_data = response.json()
         
-        if not vpn_data or not isinstance(vpn_data, list) or len(vpn_data) < 1:
+        if not vpn_data or not isinstance(vpn_data, dict) or 'data' not in vpn_data:
             raise ValueError("Invalid VPNGate data format")
             
-        servers_data = vpn_data[0].get("servers", [])
+        servers_data = vpn_data['data'].get("servers", [])
         ip_map = {server["ip"]: server for server in servers_data if server.get("ip")}
         
         print(f"Found {len(ip_map)} servers to check")
