@@ -1,235 +1,201 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
 import json
 import time
+import logging
+import random
+import tempfile
+from datetime import datetime
+from typing import Dict, Optional, Tuple
+
 import requests
-from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
-import threading
-from datetime import datetime
-import random
+from tqdm import tqdm # type: ignore
 
-# Load environment variables
+# --- 加载环境变量 ---
 load_dotenv()
 
-# Constants
-VPNGATE_API_URL = "https://raw.githubusercontent.com/6Kmfi6HP/Vpngate-Scraper-API/refs/heads/main/json/data.json"
-IPDATA_API_URL = "https://api.ipdata.co/{ip}"
-# IPDATA_API_KEY = os.getenv("IPDATA_API_KEY")  # You should set this in .env file
+# --- 配置区（可通过 .env 覆盖） ---
+VPNGATE_API_URL = os.getenv(
+    "VPNGATE_API_URL",
+    "https://raw.githubusercontent.com/6Kmfi6HP/Vpngate-Scraper-API/refs/heads/main/json/data.json"
+)
+IPDATA_API_URL_TEMPLATE = os.getenv("IPDATA_API_URL_TEMPLATE", "https://api.ipdata.co/{ip}")
 IPDATA_API_KEY = "eca677b284b3bac29eb72f5e496aa9047f26543605efe99ff2ce35c9"
+MAX_WORKERS = int(os.getenv("MAX_WORKERS", "10"))
+RETRY_TOTAL = int(os.getenv("RETRY_TOTAL", "5"))
+RETRY_BACKOFF_FACTOR = float(os.getenv("RETRY_BACKOFF_FACTOR", "1"))
+REQUEST_TIMEOUT = float(os.getenv("REQUEST_TIMEOUT", "10"))
+OUTPUT_FILE = os.getenv("OUTPUT_FILE", "vpngate_with_risk.json")
 
-# User Agent List
+# 如果没有设置 API_KEY，立即退出
+if not IPDATA_API_KEY:
+    raise RuntimeError("请在 .env 文件中设置 IPDATA_API_KEY 环境变量")
+
+# 排除字段
+EXCLUDE_FIELDS = {"ip", "count"}
+
+# --- 日志配置 ---
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+
+# --- 用户代理列表 ---
 USER_AGENTS = [
     # Windows Chrome
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    
     # Windows Firefox
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
-    
     # Windows Edge
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0',
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0',
-    
     # macOS Chrome
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-    
     # macOS Safari
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15',
-    
     # macOS Firefox
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0',
     'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0',
-    
     # Linux Chrome
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36',
-    
     # Linux Firefox
     'Mozilla/5.0 (X11; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0',
     'Mozilla/5.0 (X11; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0',
-    
     # Mobile Chrome (Android)
     'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36',
     'Mozilla/5.0 (Linux; Android 13; Samsung S23) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Mobile Safari/537.36',
-    
     # Mobile Safari (iOS)
     'Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1',
     'Mozilla/5.0 (iPad; CPU OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1'
 ]
 
-# Proxy settings
-PROXIES = {
-    'http': 'socks5h://127.0.0.1:7890',
-    'https': 'socks5h://127.0.0.1:7890'
-}
+# 如果需要代理，请在 .env 配置 PROXIES_JSON，例如:
+# PROXIES_JSON='{"http":"socks5h://127.0.0.1:7890","https":"socks5h://127.0.0.1:7890"}'
+PROXIES = json.loads(os.getenv("PROXIES_JSON", "{}"))
 
-# Fields to exclude (these are already in VPNGate data or not needed)
-EXCLUDE_FIELDS = {'ip', 'count'}
-
-# Add rate limiting semaphore
-MAX_CONCURRENT_REQUESTS = 10
-request_semaphore = threading.Semaphore(MAX_CONCURRENT_REQUESTS)
-
-# Create session with retry strategy
-def create_session():
+def create_session() -> requests.Session:
+    """创建带重试策略和可选代理的 Session"""
     session = requests.Session()
-    retry_strategy = Retry(
-        total=5,  # 最多重试5次
-        backoff_factor=1,  # 重试间隔时间
-        status_forcelist=[429, 500, 502, 503, 504],  # 需要重试的HTTP状态码
-        allowed_methods=["HEAD", "GET", "OPTIONS"]  # 允许重试的请求方法
+    retry = Retry(
+        total=RETRY_TOTAL,
+        backoff_factor=RETRY_BACKOFF_FACTOR,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["HEAD", "GET", "OPTIONS"]
     )
-    adapter = HTTPAdapter(max_retries=retry_strategy)
+    adapter = HTTPAdapter(max_retries=retry)
     session.mount("http://", adapter)
     session.mount("https://", adapter)
-    session.proxies = PROXIES
+    if PROXIES:
+        session.proxies.update(PROXIES)
     return session
 
-def check_ip_risk(ip):
-    """Check risk score for a single IP using ipdata.co API"""
-    start_time = time.time()
-    # Use semaphore to limit concurrent requests
-    with request_semaphore:
-        try:
-            headers = {
-                'Referer': 'https://ipdata.co/',
-                'Origin': 'https://ipdata.co',
-                'User-Agent': random.choice(USER_AGENTS)  # 随机选择一个User-Agent
-            }
-            
-            for attempt in range(3):  # 每个IP最多尝试3次
-                try:
-                    # 为每次请求创建新的 session
-                    session = create_session()
-                    try:
-                        response = session.get(
-                            IPDATA_API_URL.format(ip=ip),
-                            params={"api-key": IPDATA_API_KEY},
-                            headers=headers,
-                            timeout=10
-                        )
-                        response.raise_for_status()
-                        data = response.json()
-                        
-                        # 创建新的数据结构，排除不需要的字段
-                        ip_info = {k: v for k, v in data.items() if k not in EXCLUDE_FIELDS}
-                        
-                        elapsed_time = time.time() - start_time
-                        return ip, ip_info, elapsed_time
-                        
-                    finally:
-                        # 确保 session 被关闭
-                        session.close()
-                        
-                except requests.exceptions.RequestException as e:
-                    if attempt == 2:  # 最后一次尝试
-                        print(f"Failed to check IP {ip} after 3 attempts: {str(e)}")
-                        elapsed_time = time.time() - start_time
-                        return ip, None, elapsed_time
-                    print(f"Attempt {attempt + 1} failed for IP {ip}: {str(e)}")
-                    time.sleep(5)  # 失败后等待5秒再重试
-                    
-        except Exception as e:
-            print(f"Unexpected error checking IP {ip}: {str(e)}")
-            elapsed_time = time.time() - start_time
-            return ip, None, elapsed_time
+def check_ip_risk(ip: str, session: requests.Session) -> Tuple[str, Optional[Dict], float]:
+    """
+    调用 ipdata.co 接口获取单个 IP 的风险数据。
+    返回 (ip, 过滤后的数据 or None, 耗时秒数)
+    """
+    start = time.time()
+    headers = {
+        "Referer": "https://ipdata.co/",
+        "Origin": "https://ipdata.co",
+        "User-Agent": random.choice(USER_AGENTS)
+    }
+    try:
+        resp = session.get(
+            IPDATA_API_URL_TEMPLATE.format(ip=ip),
+            params={"api-key": IPDATA_API_KEY},
+            headers=headers,
+            timeout=REQUEST_TIMEOUT
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        filtered = {k: v for k, v in data.items() if k not in EXCLUDE_FIELDS}
+        return ip, filtered, time.time() - start
+    except Exception as e:
+        logger.warning(f"IP {ip} 请求失败: {e}")
+        return ip, None, time.time() - start
+
+def fetch_vpngate_data() -> Dict:
+    """从 VPNGate 仓库拉取 JSON 并校验格式"""
+    logger.info("Fetching VPNGate data...")
+    session = create_session()
+    try:
+        resp = session.get(VPNGATE_API_URL, timeout=REQUEST_TIMEOUT * 1.5)
+        resp.raise_for_status()
+        data = resp.json()
+        if not isinstance(data, dict) or "data" not in data or "servers" not in data["data"]:
+            raise ValueError("VPNGate 返回的数据格式不符合预期")
+        return data
+    finally:
+        session.close()
+
+def save_atomic(data: Dict, path: str) -> None:
+    """原子性地将 data 写入 path"""
+    dirpath = os.path.dirname(path) or "."
+    with tempfile.NamedTemporaryFile("w", delete=False, dir=dirpath, encoding="utf-8") as tmp:
+        json.dump(data, tmp, indent=2, ensure_ascii=False)
+        tmp_path = tmp.name
+    os.replace(tmp_path, path)
+    logger.info(f"Output saved to {path}")
 
 def main():
-    start_time = time.time()
-    start_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"Started at: {start_datetime}")
-    
-    # Fetch VPNGate data
+    start_dt = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    logger.info(f"Script started at {start_dt}")
+
     try:
-        # 创建临时 session 只用于获取 VPNGate 数据
+        vpn_data = fetch_vpngate_data()
+        servers = vpn_data["data"]["servers"]
+        ips = [srv["ip"] for srv in servers if srv.get("ip")]
+        logger.info(f"Found {len(ips)} IPs; using {MAX_WORKERS} workers")
+
         session = create_session()
-        try:
-            response = session.get(VPNGATE_API_URL, timeout=15)
-            response.raise_for_status()
-            vpn_data = response.json()
-        finally:
-            session.close()
-        
-        if not vpn_data or not isinstance(vpn_data, dict) or 'data' not in vpn_data:
-            raise ValueError("Invalid VPNGate data format")
-            
-        servers_data = vpn_data['data'].get("servers", [])
-        ip_map = {server["ip"]: server for server in servers_data if server.get("ip")}
-        
-        print(f"Found {len(ip_map)} servers to check")
-        print(f"Using {MAX_CONCURRENT_REQUESTS} concurrent requests")
-        
-        # Statistics variables
-        total_success = 0
-        total_failed = 0
-        min_time = float('inf')
-        max_time = 0
-        total_time = 0
-        
-        # Use ThreadPoolExecutor for concurrent requests
-        with ThreadPoolExecutor(max_workers=MAX_CONCURRENT_REQUESTS) as executor:
-            # Submit all requests
-            future_to_ip = {
-                executor.submit(check_ip_risk, ip): ip 
-                for ip in ip_map.keys()
-            }
-            
-            completed = 0
-            total = len(future_to_ip)
-            
-            # Process completed requests
-            for future in as_completed(future_to_ip):
-                ip, ip_info, request_time = future.result()
-                completed += 1
-                
-                # Update statistics
-                min_time = min(min_time, request_time)
-                max_time = max(max_time, request_time)
-                total_time += request_time
-                
-                if ip_info and ip in ip_map:
-                    total_success += 1
-                    # 将所有IP数据存储在ipdata字段中
-                    ip_map[ip]["ipdata"] = ip_info
-                    # 获取threat数据用于显示
-                    threat_data = ip_info.get("threat", {})
-                    scores = threat_data.get("scores", {})
-                    trust_score = scores.get("trust_score", 0)
-                    print(f"[{completed}/{total}] Added IP data for {ip} - Trust Score: {trust_score} (took {request_time:.2f}s)")
+        stats = {"success": 0, "failed": 0, "times": []}
+
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            futures = {executor.submit(check_ip_risk, ip, session): ip for ip in ips}
+            for future in tqdm(as_completed(futures), total=len(futures), desc="Checking IP"):
+                ip, info, elapsed = future.result()
+                stats["times"].append(elapsed)
+                if info:
+                    stats["success"] += 1
+                    # 将结果写回原数据结构
+                    for srv in servers:
+                        if srv.get("ip") == ip:
+                            srv["ipdata"] = info
+                            break
                 else:
-                    total_failed += 1
-                    print(f"[{completed}/{total}] Failed to get data for {ip} (took {request_time:.2f}s)")
-        
-        # Save updated data back to a new file
-        with open("vpngate_with_risk.json", "w", encoding="utf-8") as f:
-            json.dump(vpn_data, f, indent=2, ensure_ascii=False)
-        
-        # Calculate and display final statistics
-        end_time = time.time()
-        total_elapsed = end_time - start_time
-        avg_time = total_time / total if total > 0 else 0
-        
-        print("\n=== Final Statistics ===")
-        print(f"Total time: {total_elapsed:.2f} seconds")
-        print(f"Successful requests: {total_success}")
-        print(f"Failed requests: {total_failed}")
-        print(f"Average request time: {avg_time:.2f} seconds")
-        print(f"Fastest request: {min_time:.2f} seconds")
-        print(f"Slowest request: {max_time:.2f} seconds")
-        print(f"Requests per second: {total / total_elapsed:.2f}")
-        print("=====================")
-            
+                    stats["failed"] += 1
+
+        session.close()
+
+        # 汇总日志
+        total = len(ips)
+        total_time = sum(stats["times"]) if stats["times"] else 0
+        avg_time = total_time / total if total else 0
+        logger.info(f"Total requests: {total}, Success: {stats['success']}, Failed: {stats['failed']}")
+        logger.info(f"Avg time: {avg_time:.2f}s, Min: {min(stats['times']):.2f}s, Max: {max(stats['times']):.2f}s")
+
+        save_atomic(vpn_data, OUTPUT_FILE)
+
+    except KeyboardInterrupt:
+        logger.error("用户中断执行，已停止")
     except Exception as e:
-        print(f"Error processing VPN data: {str(e)}")
+        logger.exception(f"脚本运行出错: {e}")
 
 if __name__ == "__main__":
-    if not IPDATA_API_KEY:
-        print("Error: IPDATA_API_KEY not found in environment variables")
-        exit(1)
-    main() 
+    main()
