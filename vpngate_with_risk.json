@@ -66,7 +66,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:08+09:00"
+            "current_time": "2025-04-20T08:20:07+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -157,7 +157,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:10+09:00"
+            "current_time": "2025-04-20T08:20:10+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -245,7 +245,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:12+09:00"
+            "current_time": "2025-04-20T08:20:12+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -336,7 +336,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:15+09:00"
+            "current_time": "2025-04-20T08:20:14+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -427,7 +427,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:17+09:00"
+            "current_time": "2025-04-20T08:20:16+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -515,7 +515,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:19+09:00"
+            "current_time": "2025-04-20T08:20:19+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -606,7 +606,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:21+09:00"
+            "current_time": "2025-04-20T08:20:21+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -697,7 +697,7 @@
             "abbr": "PDT",
             "offset": "-0700",
             "is_dst": true,
-            "current_time": "2025-04-20T08:10:23-07:00"
+            "current_time": "2025-04-20T08:20:23-07:00"
           },
           "threat": {
             "is_tor": false,
@@ -788,7 +788,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:26+09:00"
+            "current_time": "2025-04-20T08:20:26+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -879,7 +879,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:28+09:00"
+            "current_time": "2025-04-20T08:20:28+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -967,7 +967,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:30+09:00"
+            "current_time": "2025-04-20T08:20:30+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1058,7 +1058,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:32+09:00"
+            "current_time": "2025-04-20T08:20:32+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1160,7 +1160,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:35+09:00"
+            "current_time": "2025-04-20T08:20:35+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1257,7 +1257,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:37+09:00"
+            "current_time": "2025-04-20T08:20:37+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1354,7 +1354,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:39+09:00"
+            "current_time": "2025-04-20T08:20:39+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1451,7 +1451,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:41+09:00"
+            "current_time": "2025-04-20T08:20:42+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1542,7 +1542,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:44+09:00"
+            "current_time": "2025-04-20T08:20:44+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1638,7 +1638,7 @@
             "abbr": "PDT",
             "offset": "-0700",
             "is_dst": true,
-            "current_time": "2025-04-20T08:10:46-07:00"
+            "current_time": "2025-04-20T08:20:46-07:00"
           },
           "threat": {
             "is_tor": false,
@@ -1729,7 +1729,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:48+09:00"
+            "current_time": "2025-04-20T08:20:48+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1826,7 +1826,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:50+09:00"
+            "current_time": "2025-04-20T08:20:51+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -1917,7 +1917,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:52+09:00"
+            "current_time": "2025-04-20T08:20:53+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2005,7 +2005,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:56+09:00"
+            "current_time": "2025-04-20T08:20:55+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2096,7 +2096,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:10:58+09:00"
+            "current_time": "2025-04-20T08:20:57+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2187,7 +2187,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:00+09:00"
+            "current_time": "2025-04-20T08:21:00+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2284,7 +2284,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:02+09:00"
+            "current_time": "2025-04-20T08:21:02+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2375,7 +2375,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:04+09:00"
+            "current_time": "2025-04-20T08:21:04+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2466,7 +2466,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:07+09:00"
+            "current_time": "2025-04-20T08:21:06+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2557,7 +2557,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:09+09:00"
+            "current_time": "2025-04-20T08:21:09+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2656,7 +2656,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:11+09:00"
+            "current_time": "2025-04-20T08:21:11+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2747,7 +2747,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:13+09:00"
+            "current_time": "2025-04-20T08:21:13+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2838,7 +2838,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:16+09:00"
+            "current_time": "2025-04-20T08:21:15+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -2935,7 +2935,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:18+09:00"
+            "current_time": "2025-04-20T08:21:18+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3031,7 +3031,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:20+09:00"
+            "current_time": "2025-04-20T08:21:20+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3128,7 +3128,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:22+09:00"
+            "current_time": "2025-04-20T08:21:22+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3219,7 +3219,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:25+09:00"
+            "current_time": "2025-04-20T08:21:24+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3310,7 +3310,7 @@
             "abbr": "+05",
             "offset": "+0500",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:27+05:00"
+            "current_time": "2025-04-20T08:21:27+05:00"
           },
           "threat": {
             "is_tor": false,
@@ -3401,7 +3401,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:29+09:00"
+            "current_time": "2025-04-20T08:21:29+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3498,7 +3498,7 @@
             "abbr": "+07",
             "offset": "+0700",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:31+07:00"
+            "current_time": "2025-04-20T08:21:31+07:00"
           },
           "threat": {
             "is_tor": false,
@@ -3589,7 +3589,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:34+09:00"
+            "current_time": "2025-04-20T08:21:34+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3691,7 +3691,7 @@
             "abbr": "+05",
             "offset": "+0500",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:36+05:00"
+            "current_time": "2025-04-20T08:21:36+05:00"
           },
           "threat": {
             "is_tor": false,
@@ -3779,7 +3779,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:38+09:00"
+            "current_time": "2025-04-20T08:21:38+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3870,7 +3870,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:41+09:00"
+            "current_time": "2025-04-20T08:21:40+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -3958,7 +3958,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:43+09:00"
+            "current_time": "2025-04-20T08:21:43+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4055,7 +4055,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:45+09:00"
+            "current_time": "2025-04-20T08:21:45+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4146,7 +4146,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:47+09:00"
+            "current_time": "2025-04-20T08:21:47+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4237,7 +4237,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:50+09:00"
+            "current_time": "2025-04-20T08:21:49+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4333,7 +4333,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:52+09:00"
+            "current_time": "2025-04-20T08:21:52+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4435,7 +4435,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:54+09:00"
+            "current_time": "2025-04-20T08:21:54+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4656,7 +4656,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:01+09:00"
+            "current_time": "2025-04-20T08:22:01+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4747,7 +4747,7 @@
             "abbr": "CDT",
             "offset": "-0500",
             "is_dst": true,
-            "current_time": "2025-04-20T08:12:03-05:00"
+            "current_time": "2025-04-20T08:22:03-05:00"
           },
           "threat": {
             "is_tor": false,
@@ -4844,7 +4844,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:05+09:00"
+            "current_time": "2025-04-20T08:22:05+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -4935,7 +4935,7 @@
             "abbr": "+07",
             "offset": "+0700",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:07+07:00"
+            "current_time": "2025-04-20T08:22:07+07:00"
           },
           "threat": {
             "is_tor": false,
@@ -5023,7 +5023,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:10+09:00"
+            "current_time": "2025-04-20T08:22:10+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5117,7 +5117,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:11:58+09:00"
+            "current_time": "2025-04-20T08:21:58+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5214,7 +5214,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:12+09:00"
+            "current_time": "2025-04-20T08:22:12+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5305,7 +5305,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:14+09:00"
+            "current_time": "2025-04-20T08:22:14+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5398,7 +5398,7 @@
             "abbr": "PDT",
             "offset": "-0700",
             "is_dst": true,
-            "current_time": "2025-04-20T08:12:16-07:00"
+            "current_time": "2025-04-20T08:22:16-07:00"
           },
           "threat": {
             "is_tor": false,
@@ -5489,7 +5489,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:19+09:00"
+            "current_time": "2025-04-20T08:22:19+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5582,7 +5582,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:21+09:00"
+            "current_time": "2025-04-20T08:22:21+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5679,7 +5679,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:23+09:00"
+            "current_time": "2025-04-20T08:22:23+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5772,7 +5772,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:25+09:00"
+            "current_time": "2025-04-20T08:22:25+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5868,7 +5868,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:27+09:00"
+            "current_time": "2025-04-20T08:22:28+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -5959,7 +5959,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:30+09:00"
+            "current_time": "2025-04-20T08:22:30+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6052,7 +6052,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:32+09:00"
+            "current_time": "2025-04-20T08:22:32+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6143,7 +6143,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:34+09:00"
+            "current_time": "2025-04-20T08:22:34+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6234,7 +6234,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:36+09:00"
+            "current_time": "2025-04-20T08:22:37+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6322,7 +6322,7 @@
             "abbr": "MSK",
             "offset": "+0300",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:39+03:00"
+            "current_time": "2025-04-20T08:22:39+03:00"
           },
           "threat": {
             "is_tor": false,
@@ -6410,7 +6410,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:41+09:00"
+            "current_time": "2025-04-20T08:22:41+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6498,7 +6498,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:43+09:00"
+            "current_time": "2025-04-20T08:22:43+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6591,7 +6591,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:45+09:00"
+            "current_time": "2025-04-20T08:22:46+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6682,7 +6682,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:48+09:00"
+            "current_time": "2025-04-20T08:22:48+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6773,7 +6773,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:50+09:00"
+            "current_time": "2025-04-20T08:22:50+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6864,7 +6864,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:52+09:00"
+            "current_time": "2025-04-20T08:22:53+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -6966,7 +6966,7 @@
             "abbr": "+07",
             "offset": "+0700",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:54+07:00"
+            "current_time": "2025-04-20T08:22:55+07:00"
           },
           "threat": {
             "is_tor": false,
@@ -7054,7 +7054,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:56+09:00"
+            "current_time": "2025-04-20T08:22:57+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7151,7 +7151,7 @@
             "abbr": "-03",
             "offset": "-0300",
             "is_dst": false,
-            "current_time": "2025-04-20T08:12:59-03:00"
+            "current_time": "2025-04-20T08:22:59-03:00"
           },
           "threat": {
             "is_tor": false,
@@ -7239,7 +7239,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:01+09:00"
+            "current_time": "2025-04-20T08:23:02+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7330,7 +7330,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:03+09:00"
+            "current_time": "2025-04-20T08:23:04+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7427,7 +7427,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:05+09:00"
+            "current_time": "2025-04-20T08:23:06+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7515,7 +7515,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:08+09:00"
+            "current_time": "2025-04-20T08:23:08+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7617,7 +7617,7 @@
             "abbr": "MSK",
             "offset": "+0300",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:10+03:00"
+            "current_time": "2025-04-20T08:23:11+03:00"
           },
           "threat": {
             "is_tor": false,
@@ -7705,7 +7705,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:12+09:00"
+            "current_time": "2025-04-20T08:23:13+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7793,7 +7793,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:14+09:00"
+            "current_time": "2025-04-20T08:23:15+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7886,7 +7886,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:17+09:00"
+            "current_time": "2025-04-20T08:23:17+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -7977,7 +7977,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:19+09:00"
+            "current_time": "2025-04-20T08:23:20+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8068,7 +8068,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:21+09:00"
+            "current_time": "2025-04-20T08:23:22+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8156,7 +8156,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:23+09:00"
+            "current_time": "2025-04-20T08:23:24+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8250,7 +8250,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:26+09:00"
+            "current_time": "2025-04-20T08:23:26+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8341,7 +8341,7 @@
             "abbr": "EEST",
             "offset": "+0300",
             "is_dst": true,
-            "current_time": "2025-04-20T08:13:28+03:00"
+            "current_time": "2025-04-20T08:23:29+03:00"
           },
           "threat": {
             "is_tor": false,
@@ -8435,7 +8435,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:30+09:00"
+            "current_time": "2025-04-20T08:23:31+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8523,7 +8523,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:32+09:00"
+            "current_time": "2025-04-20T08:23:33+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8614,7 +8614,7 @@
             "abbr": "+07",
             "offset": "+0700",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:34+07:00"
+            "current_time": "2025-04-20T08:23:36+07:00"
           },
           "threat": {
             "is_tor": false,
@@ -8702,7 +8702,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:37+09:00"
+            "current_time": "2025-04-20T08:23:38+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8790,7 +8790,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:39+09:00"
+            "current_time": "2025-04-20T08:23:40+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8881,7 +8881,7 @@
             "abbr": "JST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:41+09:00"
+            "current_time": "2025-04-20T08:23:42+09:00"
           },
           "threat": {
             "is_tor": false,
@@ -8969,7 +8969,7 @@
             "abbr": "KST",
             "offset": "+0900",
             "is_dst": false,
-            "current_time": "2025-04-20T08:13:43+09:00"
+            "current_time": "2025-04-20T08:23:45+09:00"
           },
           "threat": {
             "is_tor": false,
