@@ -43,7 +43,7 @@ def check_ip_risk(ip, session):
     """Check risk score for a single IP using ipdata.co API"""
     try:
         # Add delay between requests
-        time.sleep(2)  # 2 seconds delay between requests
+        time.sleep(1)  # 2 seconds delay between requests
         
         headers = {
             'Referer': 'https://ipdata.co/',
