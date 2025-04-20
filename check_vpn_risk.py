@@ -39,12 +39,9 @@ def create_session():
     session.proxies = PROXIES
     return session
 
-def check_ip_risk(ip, session):
+def check_ip_risk(ip):
     """Check risk score for a single IP using ipdata.co API"""
     try:
-        # Add delay between requests
-        # time.sleep(1)  # 2 seconds delay between requests
-        
         headers = {
             'Referer': 'https://ipdata.co/',
             'Origin': 'https://ipdata.co',
@@ -53,20 +50,27 @@ def check_ip_risk(ip, session):
         
         for attempt in range(3):  # 每个IP最多尝试3次
             try:
-                response = session.get(
-                    IPDATA_API_URL.format(ip=ip),
-                    params={"api-key": IPDATA_API_KEY},
-                    headers=headers,
-                    timeout=10
-                )
-                response.raise_for_status()
-                data = response.json()
-                
-                # 创建新的数据结构，排除不需要的字段
-                ip_info = {k: v for k, v in data.items() if k not in EXCLUDE_FIELDS}
-                
-                return ip, ip_info
-                
+                # 为每次请求创建新的 session
+                session = create_session()
+                try:
+                    response = session.get(
+                        IPDATA_API_URL.format(ip=ip),
+                        params={"api-key": IPDATA_API_KEY},
+                        headers=headers,
+                        timeout=10
+                    )
+                    response.raise_for_status()
+                    data = response.json()
+                    
+                    # 创建新的数据结构，排除不需要的字段
+                    ip_info = {k: v for k, v in data.items() if k not in EXCLUDE_FIELDS}
+                    
+                    return ip, ip_info
+                    
+                finally:
+                    # 确保 session 被关闭
+                    session.close()
+                    
             except requests.exceptions.RequestException as e:
                 if attempt == 2:  # 最后一次尝试
                     print(f"Failed to check IP {ip} after 3 attempts: {str(e)}")
@@ -79,14 +83,16 @@ def check_ip_risk(ip, session):
         return ip, None
 
 def main():
-    # Create session with retry strategy
-    session = create_session()
-    
     # Fetch VPNGate data
     try:
-        response = session.get(VPNGATE_API_URL, timeout=15)
-        response.raise_for_status()
-        vpn_data = response.json()
+        # 创建临时 session 只用于获取 VPNGate 数据
+        session = create_session()
+        try:
+            response = session.get(VPNGATE_API_URL, timeout=15)
+            response.raise_for_status()
+            vpn_data = response.json()
+        finally:
+            session.close()
         
         if not vpn_data or not isinstance(vpn_data, dict) or 'data' not in vpn_data:
             raise ValueError("Invalid VPNGate data format")
@@ -98,9 +104,9 @@ def main():
         
         # Use ThreadPoolExecutor for concurrent requests
         with ThreadPoolExecutor(max_workers=1) as executor:
-            # Submit all requests
+            # Submit all requests - now without passing session
             future_to_ip = {
-                executor.submit(check_ip_risk, ip, session): ip 
+                executor.submit(check_ip_risk, ip): ip 
                 for ip in ip_map.keys()
             }
             
