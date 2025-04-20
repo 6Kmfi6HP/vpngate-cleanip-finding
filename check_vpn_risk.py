@@ -86,7 +86,7 @@ USER_AGENTS = [
 
 # 如果需要代理，请在 .env 配置 PROXIES_JSON，例如:
 PROXIES_JSON='{"http":"socks5h://127.0.0.1:7890","https":"socks5h://127.0.0.1:7890"}'
-PROXIES = json.loads(os.getenv("PROXIES_JSON", "{}"))
+PROXIES = json.loads(PROXIES_JSON)
 
 def create_session() -> requests.Session:
     """创建带重试策略和可选代理的 Session"""
