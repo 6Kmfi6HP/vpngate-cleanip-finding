@@ -3312,7 +3312,7 @@
           "asn": {
             "number": 4713,
             "organization": "NTT DOCOMO BUSINESS,Inc.",
-            "network": "180.32.0.0/13"
+            "network": "180.0.0.0/10"
           }
         }
       },
@@ -4036,13 +4036,17 @@
             }
           },
           "city": {
-            "name": "Nagano",
+            "name": "Matsumoto",
             "names": {
-              "en": "Nagano",
-              "ja": "長野",
-              "ru": "Нагано"
+              "de": "Matsumoto",
+              "en": "Matsumoto",
+              "fr": "Matsumoto",
+              "ja": "松本市",
+              "pt-BR": "Matsumoto",
+              "ru": "Мацумото",
+              "zh-CN": "松本市"
             },
-            "geoname_id": 1856215
+            "geoname_id": 1857519
           },
           "subdivision": {
             "iso_code": "20",
@@ -4059,13 +4063,13 @@
             "geoname_id": 1856210
           },
           "location": {
-            "latitude": 36.6497,
-            "longitude": 138.2013,
-            "accuracy_radius": 20,
+            "latitude": 36.2257,
+            "longitude": 137.9703,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "380-0811"
+            "code": "390-0851"
           },
           "asn": {
             "number": 2516,
@@ -5966,7 +5970,7 @@
           "location": {
             "latitude": 13.6687,
             "longitude": 100.579,
-            "accuracy_radius": 200,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -7184,7 +7188,7 @@
           "asn": {
             "number": 4713,
             "organization": "NTT DOCOMO BUSINESS,Inc.",
-            "network": "180.0.0.0/11"
+            "network": "180.0.0.0/10"
           }
         }
       },
