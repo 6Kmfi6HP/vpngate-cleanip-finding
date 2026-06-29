@@ -915,7 +915,7 @@
           "asn": {
             "number": 20001,
             "organization": "Charter Communications Inc",
-            "network": "23.242.128.0/20"
+            "network": "23.242.128.0/19"
           }
         }
       },
@@ -5970,7 +5970,7 @@
           "location": {
             "latitude": 13.6687,
             "longitude": 100.579,
-            "accuracy_radius": 20,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -7564,13 +7564,17 @@
             }
           },
           "city": {
-            "name": "Ichikawa",
+            "name": "Urayasu",
             "names": {
-              "en": "Ichikawa",
-              "ja": "市川市",
-              "ru": "Итикава"
+              "de": "Urayasu",
+              "en": "Urayasu",
+              "fr": "Urayasu",
+              "ja": "浦安市",
+              "pt-BR": "Urayasu",
+              "ru": "Ураясу",
+              "zh-CN": "浦安市"
             },
-            "geoname_id": 1861964
+            "geoname_id": 1849186
           },
           "subdivision": {
             "iso_code": "12",
@@ -7587,13 +7591,13 @@
             "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.7054,
-            "longitude": 139.919,
+            "latitude": 35.6681,
+            "longitude": 139.8872,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "272-0101"
+            "code": "279-0001"
           },
           "asn": {
             "number": 2527,
@@ -8611,7 +8615,7 @@
           "location": {
             "latitude": 21.0184,
             "longitude": 105.8461,
-            "accuracy_radius": 200,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -9224,7 +9228,7 @@
           "asn": {
             "number": 7922,
             "organization": "Comcast Cable Communications, LLC",
-            "network": "174.160.176.0/20"
+            "network": "174.160.128.0/18"
           }
         }
       },
@@ -9418,7 +9422,7 @@
           "location": {
             "latitude": 36.5707,
             "longitude": 139.8822,
-            "accuracy_radius": 100,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -12501,7 +12505,7 @@
           "location": {
             "latitude": 48.4817,
             "longitude": 135.083,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Vladivostok"
           },
           "postal": {
@@ -13413,7 +13417,7 @@
           "location": {
             "latitude": 43.0647,
             "longitude": 141.3489,
-            "accuracy_radius": 100,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -13516,13 +13520,13 @@
             "geoname_id": 1153670
           },
           "location": {
-            "latitude": 18.7857,
-            "longitude": 98.9736,
+            "latitude": 18.6833,
+            "longitude": 98.9195,
             "accuracy_radius": 20,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
-            "code": "50000"
+            "code": "50230"
           },
           "asn": {
             "number": 133481,
@@ -18871,7 +18875,7 @@
           "location": {
             "latitude": 35.7876,
             "longitude": 139.9065,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -19562,8 +19566,8 @@
             "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.1187,
-            "longitude": 128.957,
+            "latitude": 35.0981,
+            "longitude": 128.9616,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
