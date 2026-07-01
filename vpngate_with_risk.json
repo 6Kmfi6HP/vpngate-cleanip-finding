@@ -4880,7 +4880,7 @@
           "location": {
             "latitude": 35.1927,
             "longitude": 136.9838,
-            "accuracy_radius": 50,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -6242,8 +6242,8 @@
             "geoname_id": 1845105
           },
           "location": {
-            "latitude": 36.7893,
-            "longitude": 127.0855,
+            "latitude": 36.7882,
+            "longitude": 127.1038,
             "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
@@ -7564,17 +7564,13 @@
             }
           },
           "city": {
-            "name": "Urayasu",
+            "name": "Ichikawa",
             "names": {
-              "de": "Urayasu",
-              "en": "Urayasu",
-              "fr": "Urayasu",
-              "ja": "浦安市",
-              "pt-BR": "Urayasu",
-              "ru": "Ураясу",
-              "zh-CN": "浦安市"
+              "en": "Ichikawa",
+              "ja": "市川市",
+              "ru": "Итикава"
             },
-            "geoname_id": 1849186
+            "geoname_id": 1861964
           },
           "subdivision": {
             "iso_code": "12",
@@ -7591,13 +7587,13 @@
             "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.6681,
-            "longitude": 139.8872,
+            "latitude": 35.7054,
+            "longitude": 139.919,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "279-0001"
+            "code": "272-0101"
           },
           "asn": {
             "number": 2527,
@@ -7908,7 +7904,7 @@
           "location": {
             "latitude": 10.822,
             "longitude": 106.6257,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Ho_Chi_Minh"
           },
           "postal": {
@@ -8819,7 +8815,7 @@
           "location": {
             "latitude": 55.0386,
             "longitude": 82.9425,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Novosibirsk"
           },
           "postal": {
@@ -11470,7 +11466,7 @@
           "location": {
             "latitude": 35.8506,
             "longitude": 139.9732,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -14206,14 +14202,18 @@
             }
           },
           "city": {
-            "name": "Ebina",
+            "name": "Yokohama",
             "names": {
-              "en": "Ebina",
-              "ja": "海老名",
-              "ru": "Эбина",
-              "zh-CN": "海老名市"
+              "de": "Yokohama",
+              "en": "Yokohama",
+              "es": "Yokohama",
+              "fr": "Yokohama",
+              "ja": "横浜市",
+              "pt-BR": "Yokohama",
+              "ru": "Иокогама",
+              "zh-CN": "横滨市"
             },
-            "geoname_id": 6822128
+            "geoname_id": 1848354
           },
           "subdivision": {
             "iso_code": "14",
@@ -14230,13 +14230,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.4389,
-            "longitude": 139.3899,
+            "latitude": 35.4338,
+            "longitude": 139.6496,
             "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "243-0411"
+            "code": "231-0841"
           },
           "asn": {
             "number": 2516,
@@ -15302,36 +15302,41 @@
             }
           },
           "city": {
-            "name": "Yangsan",
+            "name": "Busan",
             "names": {
-              "en": "Yangsan",
-              "ja": "梁山市",
-              "ru": "Янсан",
-              "zh-CN": "梁山市"
+              "de": "Busan",
+              "en": "Busan",
+              "es": "Busán",
+              "fr": "Pusan",
+              "ja": "釜山広域市",
+              "pt-BR": "Busan",
+              "ru": "Пусан",
+              "zh-CN": "釜山广域市"
             },
-            "geoname_id": 1832828
+            "geoname_id": 1838524
           },
           "subdivision": {
-            "iso_code": "48",
-            "name": "Gyeongsangnam-do",
+            "iso_code": "26",
+            "name": "Busan",
             "names": {
-              "de": "Gyeongsangnam-do",
-              "en": "Gyeongsangnam-do",
-              "es": "Gyeongsangnam-do",
-              "fr": "Gyeongsangnam-do",
-              "ja": "慶尚南道",
-              "pt-BR": "Gyeongsangnam-do"
+              "de": "Busan",
+              "en": "Busan",
+              "es": "Busan",
+              "fr": "Busan",
+              "ja": "釜山広域市",
+              "pt-BR": "Busan",
+              "zh-CN": "釜山广域市"
             },
-            "geoname_id": 1902028
+            "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.4097,
-            "longitude": 129.1615,
-            "accuracy_radius": 20,
+            "latitude": 35.1995,
+            "longitude": 129.0799,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "505"
+            "code": "478"
           },
           "asn": {
             "number": 4766,
@@ -17688,12 +17693,18 @@
             }
           },
           "city": {
-            "name": "Ōba",
+            "name": "Kamakura",
             "names": {
-              "en": "Ōba",
-              "ja": "大庭"
+              "de": "Kamakura",
+              "en": "Kamakura",
+              "es": "Kamakura",
+              "fr": "Kamakura",
+              "ja": "鎌倉市",
+              "pt-BR": "Kamakura",
+              "ru": "Камакура",
+              "zh-CN": "镰仓市"
             },
-            "geoname_id": 10439851
+            "geoname_id": 1860672
           },
           "subdivision": {
             "iso_code": "14",
@@ -17710,13 +17721,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.3643,
-            "longitude": 139.4482,
+            "latitude": 35.3247,
+            "longitude": 139.5478,
             "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "251-0861"
+            "code": "248-0011"
           },
           "asn": {
             "number": 2516,
@@ -19038,17 +19049,14 @@
             }
           },
           "city": {
-            "name": "Fukuoka",
+            "name": "Dazaifu",
             "names": {
-              "de": "Fukuoka",
-              "en": "Fukuoka",
-              "es": "Fukuoka",
-              "fr": "Fukuoka",
-              "ja": "福岡市",
-              "pt-BR": "Fukuoka",
-              "ru": "Фукуока"
+              "en": "Dazaifu",
+              "ja": "太宰府市",
+              "ru": "Дадзайфу",
+              "zh-CN": "太宰府市"
             },
-            "geoname_id": 1863967
+            "geoname_id": 7422816
           },
           "subdivision": {
             "iso_code": "40",
@@ -19065,13 +19073,13 @@
             "geoname_id": 1863958
           },
           "location": {
-            "latitude": 33.5752,
-            "longitude": 130.4198,
-            "accuracy_radius": 10,
+            "latitude": 33.5048,
+            "longitude": 130.5317,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "812-0011"
+            "code": "818-0121"
           },
           "asn": {
             "number": 2527,
@@ -19566,8 +19574,8 @@
             "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.0981,
-            "longitude": 128.9616,
+            "latitude": 35.1187,
+            "longitude": 128.957,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
