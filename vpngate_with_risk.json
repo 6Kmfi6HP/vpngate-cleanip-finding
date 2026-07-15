@@ -6082,7 +6082,7 @@
             "time_zone": "Europe/Budapest"
           },
           "postal": {
-            "code": "1091"
+            "code": "1122"
           },
           "asn": {
             "number": 20845,
@@ -9744,13 +9744,13 @@
             "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.1025,
-            "longitude": 129.0394,
+            "latitude": 35.1811,
+            "longitude": 129.0928,
             "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "48947"
+            "code": "475"
           },
           "asn": {
             "number": 9318,
@@ -10984,7 +10984,7 @@
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "136-8501"
+            "code": "136-8671"
           },
           "asn": {
             "number": 2516,
@@ -11395,7 +11395,7 @@
           "location": {
             "latitude": 37.5479,
             "longitude": 126.9086,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -14267,18 +14267,12 @@
             }
           },
           "city": {
-            "name": "Yokohama",
+            "name": "Kasama",
             "names": {
-              "de": "Yokohama",
-              "en": "Yokohama",
-              "es": "Yokohama",
-              "fr": "Yokohama",
-              "ja": "横浜市",
-              "pt-BR": "Yokohama",
-              "ru": "Иокогама",
-              "zh-CN": "横滨市"
+              "en": "Kasama",
+              "ja": "笠間"
             },
-            "geoname_id": 1848354
+            "geoname_id": 11058939
           },
           "subdivision": {
             "iso_code": "14",
@@ -14295,13 +14289,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.4338,
-            "longitude": 139.6496,
-            "accuracy_radius": 20,
+            "latitude": 35.3696,
+            "longitude": 139.558,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "231-0841"
+            "code": "247-0001"
           },
           "asn": {
             "number": 2516,
@@ -15297,7 +15291,7 @@
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "300"
+            "code": "301"
           },
           "asn": {
             "number": 4766,
@@ -16086,11 +16080,11 @@
             }
           },
           "city": {
-            "name": "Mokpo-si",
+            "name": "Hwangchi",
             "names": {
-              "en": "Mokpo-si"
+              "en": "Hwangchi"
             },
-            "geoname_id": 1841063
+            "geoname_id": 1843928
           },
           "subdivision": {
             "iso_code": "46",
@@ -16106,13 +16100,13 @@
             "geoname_id": 1845788
           },
           "location": {
-            "latitude": 34.8142,
-            "longitude": 126.3905,
-            "accuracy_radius": 50,
+            "latitude": 34.7579,
+            "longitude": 126.457,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "58647"
+            "code": "584"
           },
           "asn": {
             "number": 4766,
@@ -16905,8 +16899,8 @@
             "geoname_id": 1833742
           },
           "location": {
-            "latitude": 35.572,
-            "longitude": 129.3302,
+            "latitude": 35.5833,
+            "longitude": 129.3477,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -19846,8 +19840,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.6046,
-            "longitude": 127.0888,
+            "latitude": 37.6087,
+            "longitude": 127.0898,
             "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
@@ -20117,11 +20111,41 @@
               "zh-CN": "亚洲"
             }
           },
+          "city": {
+            "name": "Matsumoto",
+            "names": {
+              "de": "Matsumoto",
+              "en": "Matsumoto",
+              "fr": "Matsumoto",
+              "ja": "松本市",
+              "pt-BR": "Matsumoto",
+              "ru": "Мацумото",
+              "zh-CN": "松本市"
+            },
+            "geoname_id": 1857519
+          },
+          "subdivision": {
+            "iso_code": "20",
+            "name": "Nagano",
+            "names": {
+              "de": "Präfektur Nagano",
+              "en": "Nagano",
+              "es": "Prefectura de Nagano",
+              "fr": "préfecture de Nagano",
+              "ja": "長野県",
+              "pt-BR": "Nagano",
+              "ru": "Нагано"
+            },
+            "geoname_id": 1856210
+          },
           "location": {
-            "latitude": 35.69,
-            "longitude": 139.69,
+            "latitude": 36.2539,
+            "longitude": 137.9783,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
+          },
+          "postal": {
+            "code": "390-0871"
           },
           "asn": {
             "number": 2514,
