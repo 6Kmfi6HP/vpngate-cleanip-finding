@@ -2065,33 +2065,34 @@
             }
           },
           "city": {
-            "name": "Bupyeong-gu",
+            "name": "Yongsan-gu",
             "names": {
-              "en": "Bupyeong-gu"
+              "en": "Yongsan-gu"
             },
-            "geoname_id": 8417647
+            "geoname_id": 1832311
           },
           "subdivision": {
-            "iso_code": "28",
-            "name": "Incheon",
+            "iso_code": "11",
+            "name": "Seoul",
             "names": {
-              "de": "Incheon",
-              "en": "Incheon",
-              "es": "Incheon",
-              "fr": "Incheon",
-              "ja": "仁川",
-              "pt-BR": "Incheon"
+              "de": "Seoul",
+              "en": "Seoul",
+              "es": "Seúl",
+              "fr": "Séoul",
+              "ja": "ソウル特別市",
+              "pt-BR": "Seul",
+              "zh-CN": "首尔特别市"
             },
-            "geoname_id": 1843561
+            "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5087,
-            "longitude": 126.7219,
-            "accuracy_radius": 10,
+            "latitude": 37.5332,
+            "longitude": 126.9692,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "213"
+            "code": "043"
           },
           "asn": {
             "number": 17846,
@@ -2919,7 +2920,7 @@
           "location": {
             "latitude": 39.1307,
             "longitude": 141.1457,
-            "accuracy_radius": 100,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -3756,34 +3757,42 @@
             }
           },
           "city": {
-            "name": "Phú Thọ",
+            "name": "Haiphong",
             "names": {
-              "en": "Phú Thọ"
+              "de": "Haiphong",
+              "en": "Haiphong",
+              "es": "Haiphong",
+              "fr": "Hải Phòng",
+              "ja": "ハイフォン",
+              "pt-BR": "Haiphong",
+              "ru": "Хайфон",
+              "zh-CN": "海防市"
             },
-            "geoname_id": 1569901
+            "geoname_id": 1581298
           },
           "subdivision": {
-            "iso_code": "68",
-            "name": "Phú Thọ Province",
+            "iso_code": "HP",
+            "name": "Haiphong",
             "names": {
-              "de": "Phú Thọ",
-              "en": "Phú Thọ Province",
-              "es": "Phú Thọ",
-              "fr": "Phú Thọ",
-              "ja": "フート省",
-              "pt-BR": "Phu Tho",
-              "ru": "Футхо"
+              "de": "Hải Phòng",
+              "en": "Haiphong",
+              "es": "Hải Phòng",
+              "fr": "Haïphong",
+              "ja": "ハイフォン",
+              "pt-BR": "Haiphong",
+              "ru": "Хайфон",
+              "zh-CN": "海防市"
             },
-            "geoname_id": 1905577
+            "geoname_id": 1581297
           },
           "location": {
-            "latitude": 21.3956,
-            "longitude": 105.2259,
-            "accuracy_radius": 200,
+            "latitude": 20.8567,
+            "longitude": 106.6826,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
-            "code": "290000"
+            "code": "180000"
           },
           "asn": {
             "number": 45899,
@@ -5106,7 +5115,7 @@
           "location": {
             "latitude": 37.5479,
             "longitude": 126.9086,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -6078,7 +6087,7 @@
           "location": {
             "latitude": 47.5,
             "longitude": 19.0412,
-            "accuracy_radius": 20,
+            "accuracy_radius": 10,
             "time_zone": "Europe/Budapest"
           },
           "postal": {
@@ -7595,13 +7604,17 @@
             }
           },
           "city": {
-            "name": "Ichikawa",
+            "name": "Urayasu",
             "names": {
-              "en": "Ichikawa",
-              "ja": "市川市",
-              "ru": "Итикава"
+              "de": "Urayasu",
+              "en": "Urayasu",
+              "fr": "Urayasu",
+              "ja": "浦安市",
+              "pt-BR": "Urayasu",
+              "ru": "Ураясу",
+              "zh-CN": "浦安市"
             },
-            "geoname_id": 1861964
+            "geoname_id": 1849186
           },
           "subdivision": {
             "iso_code": "12",
@@ -7618,13 +7631,13 @@
             "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.7054,
-            "longitude": 139.919,
+            "latitude": 35.6681,
+            "longitude": 139.8872,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "272-0101"
+            "code": "279-0001"
           },
           "asn": {
             "number": 2527,
@@ -9034,7 +9047,7 @@
           "location": {
             "latitude": 35.5335,
             "longitude": 129.3173,
-            "accuracy_radius": 50,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -9133,8 +9146,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6675,
-            "longitude": 127.2383,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -9443,7 +9456,7 @@
           "location": {
             "latitude": 36.5707,
             "longitude": 139.8822,
-            "accuracy_radius": 100,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -10685,12 +10698,12 @@
             }
           },
           "city": {
-            "name": "Kamiochiai",
+            "name": "Tokiwa",
             "names": {
-              "en": "Kamiochiai",
-              "ja": "上落合"
+              "en": "Tokiwa",
+              "ja": "常盤"
             },
-            "geoname_id": 11027574
+            "geoname_id": 1850196
           },
           "subdivision": {
             "iso_code": "11",
@@ -10707,13 +10720,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.8924,
-            "longitude": 139.6224,
+            "latitude": 35.8669,
+            "longitude": 139.6469,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "338-0001"
+            "code": "330-0061"
           },
           "asn": {
             "number": 2527,
@@ -12060,7 +12073,7 @@
           "location": {
             "latitude": 37.2734,
             "longitude": 127.0189,
-            "accuracy_radius": 100,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -12559,7 +12572,7 @@
           "location": {
             "latitude": 48.4817,
             "longitude": 135.083,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Vladivostok"
           },
           "postal": {
@@ -15467,39 +15480,32 @@
             }
           },
           "city": {
-            "name": "Ho Chi Minh City",
+            "name": "Thị Trấn Xuân Hoà",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh City",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "HCMV",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хошимин",
-              "zh-CN": "胡志明市"
+              "en": "Thị Trấn Xuân Hoà"
             },
-            "geoname_id": 1566083
+            "geoname_id": 8476806
           },
           "subdivision": {
-            "iso_code": "SG",
-            "name": "Ho Chi Minh",
+            "iso_code": "04",
+            "name": "Cao Bằng Province",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "Saigon",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хо Ши Мин",
-              "zh-CN": "胡志明市"
+              "de": "Cao Bằng",
+              "en": "Cao Bằng Province",
+              "es": "Cao Bằng",
+              "fr": "Cao Bằng",
+              "ja": "カオバン省",
+              "pt-BR": "Cao Bang",
+              "ru": "Каобанг",
+              "zh-CN": "高平省"
             },
-            "geoname_id": 1580578
+            "geoname_id": 1586182
           },
           "location": {
-            "latitude": 10.822,
-            "longitude": 106.6257,
-            "accuracy_radius": 200,
-            "time_zone": "Asia/Ho_Chi_Minh"
+            "latitude": 22.9024,
+            "longitude": 106.0774,
+            "accuracy_radius": 500,
+            "time_zone": "Asia/Bangkok"
           },
           "postal": {
             "code": "700000"
@@ -15770,39 +15776,32 @@
             }
           },
           "city": {
-            "name": "Ho Chi Minh City",
+            "name": "Thị Trấn Xuân Hoà",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh City",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "HCMV",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хошимин",
-              "zh-CN": "胡志明市"
+              "en": "Thị Trấn Xuân Hoà"
             },
-            "geoname_id": 1566083
+            "geoname_id": 8476806
           },
           "subdivision": {
-            "iso_code": "SG",
-            "name": "Ho Chi Minh",
+            "iso_code": "04",
+            "name": "Cao Bằng Province",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "Saigon",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хо Ши Мин",
-              "zh-CN": "胡志明市"
+              "de": "Cao Bằng",
+              "en": "Cao Bằng Province",
+              "es": "Cao Bằng",
+              "fr": "Cao Bằng",
+              "ja": "カオバン省",
+              "pt-BR": "Cao Bang",
+              "ru": "Каобанг",
+              "zh-CN": "高平省"
             },
-            "geoname_id": 1580578
+            "geoname_id": 1586182
           },
           "location": {
-            "latitude": 10.822,
-            "longitude": 106.6257,
-            "accuracy_radius": 200,
-            "time_zone": "Asia/Ho_Chi_Minh"
+            "latitude": 22.9024,
+            "longitude": 106.0774,
+            "accuracy_radius": 500,
+            "time_zone": "Asia/Bangkok"
           },
           "postal": {
             "code": "700000"
@@ -16200,7 +16199,7 @@
           "location": {
             "latitude": 37.5576,
             "longitude": 126.9937,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -16976,41 +16975,33 @@
             }
           },
           "city": {
-            "name": "Seoul",
+            "name": "Daedeok-gu",
             "names": {
-              "de": "Seoul",
-              "en": "Seoul",
-              "es": "Seúl",
-              "fr": "Séoul",
-              "ja": "ソウル特別市",
-              "pt-BR": "Seul",
-              "ru": "Сеул",
-              "zh-CN": "首尔特别市"
+              "en": "Daedeok-gu"
             },
-            "geoname_id": 1835848
+            "geoname_id": 1835409
           },
           "subdivision": {
-            "iso_code": "11",
-            "name": "Seoul",
+            "iso_code": "30",
+            "name": "Daejeon",
             "names": {
-              "de": "Seoul",
-              "en": "Seoul",
-              "es": "Seúl",
-              "fr": "Séoul",
-              "ja": "ソウル特別市",
-              "pt-BR": "Seul",
-              "zh-CN": "首尔特别市"
+              "de": "Daejeon",
+              "en": "Daejeon",
+              "es": "Daejeon",
+              "fr": "Daejeon",
+              "ja": "大田",
+              "pt-BR": "Daejeon"
             },
-            "geoname_id": 1835847
+            "geoname_id": 1835224
           },
           "location": {
-            "latitude": 37.5658,
-            "longitude": 126.978,
-            "accuracy_radius": 10,
+            "latitude": 36.4509,
+            "longitude": 127.4172,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "04524"
+            "code": "343"
           },
           "asn": {
             "number": 4766,
@@ -17588,7 +17579,7 @@
           "location": {
             "latitude": 26.2124,
             "longitude": 127.6862,
-            "accuracy_radius": 50,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -19641,8 +19632,8 @@
             "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.1187,
-            "longitude": 128.957,
+            "latitude": 35.0981,
+            "longitude": 128.9616,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -19742,8 +19733,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6675,
-            "longitude": 127.2383,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -20903,8 +20894,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6675,
-            "longitude": 127.2383,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
