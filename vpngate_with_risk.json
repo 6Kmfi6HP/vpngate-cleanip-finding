@@ -2920,7 +2920,7 @@
           "location": {
             "latitude": 39.1307,
             "longitude": 141.1457,
-            "accuracy_radius": 20,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -5988,7 +5988,7 @@
           "location": {
             "latitude": 13.6687,
             "longitude": 100.579,
-            "accuracy_radius": 20,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -8649,7 +8649,7 @@
           "location": {
             "latitude": 21.0184,
             "longitude": 105.8461,
-            "accuracy_radius": 200,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -9146,8 +9146,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6334,
-            "longitude": 127.1282,
+            "latitude": 37.6547,
+            "longitude": 127.1493,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -10698,12 +10698,12 @@
             }
           },
           "city": {
-            "name": "Tokiwa",
+            "name": "Kamiochiai",
             "names": {
-              "en": "Tokiwa",
-              "ja": "常盤"
+              "en": "Kamiochiai",
+              "ja": "上落合"
             },
-            "geoname_id": 1850196
+            "geoname_id": 11027574
           },
           "subdivision": {
             "iso_code": "11",
@@ -10720,13 +10720,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.8669,
-            "longitude": 139.6469,
+            "latitude": 35.8924,
+            "longitude": 139.6224,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "330-0061"
+            "code": "338-0001"
           },
           "asn": {
             "number": 2527,
@@ -11965,8 +11965,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6752,
-            "longitude": 126.7648,
+            "latitude": 37.6792,
+            "longitude": 126.8183,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -15504,7 +15504,7 @@
           "location": {
             "latitude": 22.9024,
             "longitude": 106.0774,
-            "accuracy_radius": 500,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -15800,7 +15800,7 @@
           "location": {
             "latitude": 22.9024,
             "longitude": 106.0774,
-            "accuracy_radius": 500,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -15979,12 +15979,18 @@
             }
           },
           "city": {
-            "name": "Roppongi",
+            "name": "Tokyo",
             "names": {
-              "en": "Roppongi",
-              "ja": "六本木"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Tokyo",
+              "ja": "東京",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京"
             },
-            "geoname_id": 7522490
+            "geoname_id": 1850147
           },
           "subdivision": {
             "iso_code": "13",
@@ -16002,13 +16008,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6556,
-            "longitude": 139.7378,
+            "latitude": 35.6837,
+            "longitude": 139.6805,
             "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "106-0031"
+            "code": "151-0071"
           },
           "asn": {
             "number": 2527,
@@ -16099,8 +16105,8 @@
             "geoname_id": 1845788
           },
           "location": {
-            "latitude": 34.7579,
-            "longitude": 126.457,
+            "latitude": 34.755,
+            "longitude": 126.3682,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -19733,8 +19739,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6334,
-            "longitude": 127.1282,
+            "latitude": 37.6547,
+            "longitude": 127.1493,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -20894,8 +20900,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6334,
-            "longitude": 127.1282,
+            "latitude": 37.6547,
+            "longitude": 127.1493,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -20993,8 +20999,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6752,
-            "longitude": 126.7648,
+            "latitude": 37.6792,
+            "longitude": 126.8183,
             "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
@@ -21298,8 +21304,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5656,
-            "longitude": 126.978,
+            "latitude": 37.5639,
+            "longitude": 127.0188,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
