@@ -5988,7 +5988,7 @@
           "location": {
             "latitude": 13.6687,
             "longitude": 100.579,
-            "accuracy_radius": 200,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -6091,7 +6091,7 @@
             "time_zone": "Europe/Budapest"
           },
           "postal": {
-            "code": "1122"
+            "code": "1037"
           },
           "asn": {
             "number": 20845,
@@ -7426,7 +7426,7 @@
           "location": {
             "latitude": 35.2876,
             "longitude": 139.1802,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -7913,42 +7913,42 @@
             }
           },
           "city": {
-            "name": "Ho Chi Minh City",
+            "name": "Can Tho",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh City",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "HCMV",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хошимин",
-              "zh-CN": "胡志明市"
+              "de": "Cần Thơ",
+              "en": "Can Tho",
+              "es": "Can Tho",
+              "fr": "Cần Thơ",
+              "ja": "カントー",
+              "pt-BR": "Can Tho",
+              "ru": "Кан Тхо",
+              "zh-CN": "芹苴市"
             },
-            "geoname_id": 1566083
+            "geoname_id": 1586203
           },
           "subdivision": {
-            "iso_code": "SG",
-            "name": "Ho Chi Minh",
+            "iso_code": "CT",
+            "name": "Can Tho",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "Saigon",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хо Ши Мин",
-              "zh-CN": "胡志明市"
+              "de": "Cần Thơ",
+              "en": "Can Tho",
+              "es": "Cần Thơ",
+              "fr": "Cần Thơ",
+              "ja": "カントー",
+              "pt-BR": "Can Tho",
+              "ru": "Кантхо",
+              "zh-CN": "芹苴市"
             },
-            "geoname_id": 1580578
+            "geoname_id": 1581188
           },
           "location": {
-            "latitude": 10.822,
-            "longitude": 106.6257,
-            "accuracy_radius": 5,
+            "latitude": 10.0361,
+            "longitude": 105.7941,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Ho_Chi_Minh"
           },
           "postal": {
-            "code": "700000"
+            "code": "900000"
           },
           "asn": {
             "number": 7552,
@@ -9146,8 +9146,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6547,
-            "longitude": 127.1493,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -9456,7 +9456,7 @@
           "location": {
             "latitude": 36.5707,
             "longitude": 139.8822,
-            "accuracy_radius": 5,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -10698,12 +10698,12 @@
             }
           },
           "city": {
-            "name": "Kamiochiai",
+            "name": "Tokiwa",
             "names": {
-              "en": "Kamiochiai",
-              "ja": "上落合"
+              "en": "Tokiwa",
+              "ja": "常盤"
             },
-            "geoname_id": 11027574
+            "geoname_id": 1850196
           },
           "subdivision": {
             "iso_code": "11",
@@ -10720,13 +10720,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.8924,
-            "longitude": 139.6224,
+            "latitude": 35.8669,
+            "longitude": 139.6469,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "338-0001"
+            "code": "330-0061"
           },
           "asn": {
             "number": 2527,
@@ -10968,12 +10968,12 @@
             }
           },
           "city": {
-            "name": "Kameido",
+            "name": "Tōyō",
             "names": {
-              "en": "Kameido",
-              "ja": "亀戸"
+              "en": "Tōyō",
+              "ja": "東陽"
             },
-            "geoname_id": 1860637
+            "geoname_id": 1864055
           },
           "subdivision": {
             "iso_code": "13",
@@ -10991,13 +10991,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6699,
-            "longitude": 139.8157,
+            "latitude": 35.6848,
+            "longitude": 139.8179,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "136-8671"
+            "code": "135-0011"
           },
           "asn": {
             "number": 2516,
@@ -12071,8 +12071,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.2734,
-            "longitude": 127.0189,
+            "latitude": 37.2872,
+            "longitude": 126.9734,
             "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
@@ -15304,7 +15304,7 @@
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "301"
+            "code": "300"
           },
           "asn": {
             "number": 4766,
@@ -15405,7 +15405,7 @@
           "location": {
             "latitude": 35.1995,
             "longitude": 129.0799,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -17584,12 +17584,12 @@
           },
           "location": {
             "latitude": 26.2124,
-            "longitude": 127.6862,
+            "longitude": 127.6757,
             "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "903-0801"
+            "code": "900-0021"
           },
           "asn": {
             "number": 2516,
@@ -19113,14 +19113,17 @@
             }
           },
           "city": {
-            "name": "Dazaifu",
+            "name": "Fukuoka",
             "names": {
-              "en": "Dazaifu",
-              "ja": "太宰府市",
-              "ru": "Дадзайфу",
-              "zh-CN": "太宰府市"
+              "de": "Fukuoka",
+              "en": "Fukuoka",
+              "es": "Fukuoka",
+              "fr": "Fukuoka",
+              "ja": "福岡市",
+              "pt-BR": "Fukuoka",
+              "ru": "Фукуока"
             },
-            "geoname_id": 7422816
+            "geoname_id": 1863967
           },
           "subdivision": {
             "iso_code": "40",
@@ -19137,13 +19140,13 @@
             "geoname_id": 1863958
           },
           "location": {
-            "latitude": 33.5048,
-            "longitude": 130.5317,
-            "accuracy_radius": 5,
+            "latitude": 33.5752,
+            "longitude": 130.4198,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "818-0121"
+            "code": "812-0011"
           },
           "asn": {
             "number": 2527,
@@ -19739,8 +19742,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6547,
-            "longitude": 127.1493,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -20900,8 +20903,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6547,
-            "longitude": 127.1493,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -21304,8 +21307,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5639,
-            "longitude": 127.0188,
+            "latitude": 37.5656,
+            "longitude": 126.978,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
