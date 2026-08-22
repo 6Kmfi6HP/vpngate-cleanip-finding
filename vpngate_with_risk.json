@@ -2653,7 +2653,7 @@
           "location": {
             "latitude": 35.6837,
             "longitude": 139.6805,
-            "accuracy_radius": 5,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -4000,12 +4000,16 @@
             }
           },
           "city": {
-            "name": "Harada",
+            "name": "Okayama",
             "names": {
-              "en": "Harada",
-              "ja": "原田"
+              "de": "Okayama",
+              "en": "Okayama",
+              "fr": "Okayama",
+              "ja": "岡山市",
+              "pt-BR": "Okayama",
+              "ru": "Окаяма"
             },
-            "geoname_id": 1863157
+            "geoname_id": 1854383
           },
           "subdivision": {
             "iso_code": "33",
@@ -4022,13 +4026,13 @@
             "geoname_id": 1854381
           },
           "location": {
-            "latitude": 35.0069,
-            "longitude": 133.9843,
-            "accuracy_radius": 5,
+            "latitude": 34.657,
+            "longitude": 133.9436,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "709-3711"
+            "code": "703-8291"
           },
           "asn": {
             "number": 7664,
@@ -4437,7 +4441,7 @@
           "location": {
             "latitude": 35.1796,
             "longitude": 136.9166,
-            "accuracy_radius": 10,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -6023,7 +6027,7 @@
           "location": {
             "latitude": 13.6687,
             "longitude": 100.579,
-            "accuracy_radius": 20,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -10035,18 +10039,12 @@
             }
           },
           "city": {
-            "name": "Tokyo",
+            "name": "Setagaya City",
             "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Tokyo",
-              "ja": "東京",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京"
+              "en": "Setagaya City",
+              "ja": "世田谷"
             },
-            "geoname_id": 1850147
+            "geoname_id": 11790342
           },
           "subdivision": {
             "iso_code": "13",
@@ -10064,13 +10062,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6837,
-            "longitude": 139.6805,
-            "accuracy_radius": 50,
+            "latitude": 35.6413,
+            "longitude": 139.6662,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "151-0071"
+            "code": "154-0011"
           },
           "asn": {
             "number": 2497,
@@ -11510,7 +11508,7 @@
           "location": {
             "latitude": 35.8506,
             "longitude": 139.9732,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -11687,7 +11685,7 @@
           "location": {
             "latitude": 35.7025,
             "longitude": 139.997,
-            "accuracy_radius": 20,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -12834,17 +12832,12 @@
             }
           },
           "city": {
-            "name": "Osaka",
+            "name": "Kitahama",
             "names": {
-              "de": "Ōsaka",
-              "en": "Osaka",
-              "es": "Osaka",
-              "fr": "Osaka",
-              "ja": "大阪市",
-              "pt-BR": "Osaka",
-              "ru": "Осака"
+              "en": "Kitahama",
+              "ja": "北浜"
             },
-            "geoname_id": 1853909
+            "geoname_id": 11777113
           },
           "subdivision": {
             "iso_code": "27",
@@ -12861,13 +12854,13 @@
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6967,
-            "longitude": 135.5154,
+            "latitude": 34.6926,
+            "longitude": 135.504,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "530-0041"
+            "code": "541-0041"
           },
           "asn": {
             "number": 55392,
@@ -14080,7 +14073,7 @@
           "location": {
             "latitude": 35.5478,
             "longitude": 139.4339,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -17597,7 +17590,7 @@
           "location": {
             "latitude": 26.2124,
             "longitude": 127.6757,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -18948,40 +18941,36 @@
             }
           },
           "city": {
-            "name": "Matsudo",
+            "name": "Oshiage",
             "names": {
-              "de": "Matsudo",
-              "en": "Matsudo",
-              "fr": "Matsudo",
-              "ja": "松戸市",
-              "pt-BR": "Matsudo",
-              "ru": "Мацудо",
-              "zh-CN": "松戶市"
+              "en": "Oshiage",
+              "ja": "押上"
             },
-            "geoname_id": 1857553
+            "geoname_id": 10922478
           },
           "subdivision": {
-            "iso_code": "12",
-            "name": "Chiba",
+            "iso_code": "13",
+            "name": "Tokyo",
             "names": {
-              "de": "Präfektur Chiba",
-              "en": "Chiba",
-              "es": "Prefectura de Chiba",
-              "fr": "préfecture de Chiba",
-              "ja": "千葉県",
-              "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Préfecture de Tokyo",
+              "ja": "東京都",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京都"
             },
-            "geoname_id": 2113014
+            "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.7876,
-            "longitude": 139.9065,
-            "accuracy_radius": 10,
+            "latitude": 35.7268,
+            "longitude": 139.833,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "271-0071"
+            "code": "131-0041"
           },
           "asn": {
             "number": 2527,
@@ -19771,13 +19760,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.727,
-            "longitude": 127.1963,
+            "latitude": 37.6334,
+            "longitude": 127.1282,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "120"
+            "code": "121"
           },
           "asn": {
             "number": 4766,
@@ -19869,8 +19858,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.6087,
-            "longitude": 127.0898,
+            "latitude": 37.6046,
+            "longitude": 127.0888,
             "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
