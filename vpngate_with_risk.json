@@ -6027,7 +6027,7 @@
           "location": {
             "latitude": 13.6687,
             "longitude": 100.579,
-            "accuracy_radius": 100,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -6378,7 +6378,7 @@
           "location": {
             "latitude": 35.69,
             "longitude": 139.69,
-            "accuracy_radius": 200,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "asn": {
@@ -7956,7 +7956,7 @@
           "location": {
             "latitude": 10.822,
             "longitude": 106.6257,
-            "accuracy_radius": 200,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Ho_Chi_Minh"
           },
           "postal": {
@@ -9940,35 +9940,11 @@
               "zh-CN": "亚洲"
             }
           },
-          "city": {
-            "name": "Buk-gu",
-            "names": {
-              "en": "Buk-gu"
-            },
-            "geoname_id": 8462136
-          },
-          "subdivision": {
-            "iso_code": "29",
-            "name": "Gwangju",
-            "names": {
-              "de": "Gwangju",
-              "en": "Gwangju",
-              "es": "Gwangju",
-              "fr": "Gwangju",
-              "ja": "光州廣域市",
-              "pt-BR": "Gwangju",
-              "zh-CN": "光州广域市"
-            },
-            "geoname_id": 1841808
-          },
           "location": {
-            "latitude": 35.1839,
-            "longitude": 126.9163,
-            "accuracy_radius": 200,
+            "latitude": 37.5112,
+            "longitude": 126.9741,
+            "accuracy_radius": 1000,
             "time_zone": "Asia/Seoul"
-          },
-          "postal": {
-            "code": "611"
           },
           "asn": {
             "number": 38673,
@@ -10700,12 +10676,12 @@
             }
           },
           "city": {
-            "name": "Kamiochiai",
+            "name": "Tokiwa",
             "names": {
-              "en": "Kamiochiai",
-              "ja": "上落合"
+              "en": "Tokiwa",
+              "ja": "常盤"
             },
-            "geoname_id": 11027574
+            "geoname_id": 1850196
           },
           "subdivision": {
             "iso_code": "11",
@@ -10722,13 +10698,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.8924,
-            "longitude": 139.6224,
+            "latitude": 35.8669,
+            "longitude": 139.6469,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "338-0001"
+            "code": "330-0061"
           },
           "asn": {
             "number": 2527,
@@ -12832,12 +12808,17 @@
             }
           },
           "city": {
-            "name": "Kitahama",
+            "name": "Osaka",
             "names": {
-              "en": "Kitahama",
-              "ja": "北浜"
+              "de": "Ōsaka",
+              "en": "Osaka",
+              "es": "Osaka",
+              "fr": "Osaka",
+              "ja": "大阪市",
+              "pt-BR": "Osaka",
+              "ru": "Осака"
             },
-            "geoname_id": 11777113
+            "geoname_id": 1853909
           },
           "subdivision": {
             "iso_code": "27",
@@ -12854,13 +12835,13 @@
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6926,
-            "longitude": 135.504,
+            "latitude": 34.6892,
+            "longitude": 135.4899,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "541-0041"
+            "code": "550-0001"
           },
           "asn": {
             "number": 55392,
@@ -14253,14 +14234,12 @@
             }
           },
           "city": {
-            "name": "Ebina",
+            "name": "Kasama",
             "names": {
-              "en": "Ebina",
-              "ja": "海老名",
-              "ru": "Эбина",
-              "zh-CN": "海老名市"
+              "en": "Kasama",
+              "ja": "笠間"
             },
-            "geoname_id": 6822128
+            "geoname_id": 11058939
           },
           "subdivision": {
             "iso_code": "14",
@@ -14277,13 +14256,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.4389,
-            "longitude": 139.3899,
-            "accuracy_radius": 20,
+            "latitude": 35.3696,
+            "longitude": 139.558,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "243-0411"
+            "code": "247-0001"
           },
           "asn": {
             "number": 2516,
@@ -15983,12 +15962,18 @@
             }
           },
           "city": {
-            "name": "Ebisu",
+            "name": "Tokyo",
             "names": {
-              "en": "Ebisu",
-              "ja": "恵比寿"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Tokyo",
+              "ja": "東京",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京"
             },
-            "geoname_id": 10866730
+            "geoname_id": 1850147
           },
           "subdivision": {
             "iso_code": "13",
@@ -16006,13 +15991,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6527,
-            "longitude": 139.7086,
-            "accuracy_radius": 20,
+            "latitude": 35.6837,
+            "longitude": 139.6805,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "150-0011"
+            "code": "151-0071"
           },
           "asn": {
             "number": 2527,
@@ -18777,7 +18762,7 @@
           "location": {
             "latitude": 43.0763,
             "longitude": 141.3654,
-            "accuracy_radius": 10,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -19760,8 +19745,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6334,
-            "longitude": 127.1282,
+            "latitude": 37.6675,
+            "longitude": 127.2383,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
@@ -19858,8 +19843,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.6046,
-            "longitude": 127.0888,
+            "latitude": 37.6087,
+            "longitude": 127.0898,
             "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
@@ -20893,8 +20878,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6334,
-            "longitude": 127.1282,
+            "latitude": 37.6675,
+            "longitude": 127.2383,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
