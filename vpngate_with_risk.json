@@ -10676,12 +10676,12 @@
             }
           },
           "city": {
-            "name": "Tokiwa",
+            "name": "Kamiochiai",
             "names": {
-              "en": "Tokiwa",
-              "ja": "常盤"
+              "en": "Kamiochiai",
+              "ja": "上落合"
             },
-            "geoname_id": 1850196
+            "geoname_id": 11027574
           },
           "subdivision": {
             "iso_code": "11",
@@ -10698,13 +10698,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.8669,
-            "longitude": 139.6469,
+            "latitude": 35.8924,
+            "longitude": 139.6224,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "330-0061"
+            "code": "338-0001"
           },
           "asn": {
             "number": 2527,
@@ -12808,17 +12808,16 @@
             }
           },
           "city": {
-            "name": "Osaka",
+            "name": "Suita",
             "names": {
-              "de": "Ōsaka",
-              "en": "Osaka",
-              "es": "Osaka",
-              "fr": "Osaka",
-              "ja": "大阪市",
-              "pt-BR": "Osaka",
-              "ru": "Осака"
+              "de": "Suita",
+              "en": "Suita",
+              "ja": "吹田市",
+              "pt-BR": "Suita",
+              "ru": "Суита",
+              "zh-CN": "吹田市"
             },
-            "geoname_id": 1853909
+            "geoname_id": 1851483
           },
           "subdivision": {
             "iso_code": "27",
@@ -12835,13 +12834,13 @@
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6892,
-            "longitude": 135.4899,
+            "latitude": 34.7609,
+            "longitude": 135.5085,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "550-0001"
+            "code": "564-0041"
           },
           "asn": {
             "number": 55392,
@@ -15993,7 +15992,7 @@
           "location": {
             "latitude": 35.6837,
             "longitude": 139.6805,
-            "accuracy_radius": 10,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
