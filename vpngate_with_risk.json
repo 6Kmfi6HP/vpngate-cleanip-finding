@@ -10126,13 +10126,13 @@
             "geoname_id": 5744337
           },
           "location": {
-            "latitude": 45.4817,
-            "longitude": -122.4156,
-            "accuracy_radius": 10,
+            "latitude": 45.4982,
+            "longitude": -122.4315,
+            "accuracy_radius": 20,
             "time_zone": "America/Los_Angeles"
           },
           "postal": {
-            "code": "97080"
+            "code": "97030"
           },
           "asn": {
             "number": 20055,
@@ -12813,7 +12813,7 @@
           "location": {
             "latitude": 34.6967,
             "longitude": 135.5154,
-            "accuracy_radius": 100,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -16073,8 +16073,8 @@
             "geoname_id": 1845788
           },
           "location": {
-            "latitude": 34.755,
-            "longitude": 126.3682,
+            "latitude": 34.7579,
+            "longitude": 126.457,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
