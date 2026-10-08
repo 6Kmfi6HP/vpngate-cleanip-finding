@@ -1007,7 +1007,7 @@
           "location": {
             "latitude": 34.011,
             "longitude": -118.1145,
-            "accuracy_radius": 50,
+            "accuracy_radius": 10,
             "time_zone": "America/Los_Angeles"
           },
           "postal": {
@@ -1229,10 +1229,24 @@
               "zh-CN": "亚洲"
             }
           },
+          "subdivision": {
+            "iso_code": "27",
+            "name": "Osaka",
+            "names": {
+              "de": "Präfektur Osaka",
+              "en": "Osaka",
+              "es": "Prefectura de Osaka",
+              "fr": "préfecture d'Osaka",
+              "ja": "大阪府",
+              "pt-BR": "Osaka",
+              "ru": "Осака"
+            },
+            "geoname_id": 1853904
+          },
           "location": {
-            "latitude": 35.69,
-            "longitude": 139.69,
-            "accuracy_radius": 200,
+            "latitude": 34.693,
+            "longitude": 135.5005,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "asn": {
@@ -1304,41 +1318,40 @@
             }
           },
           "city": {
-            "name": "Moscow",
+            "name": "Klin",
             "names": {
-              "de": "Moskau",
-              "en": "Moscow",
-              "es": "Moscú",
-              "fr": "Moscou",
-              "ja": "モスクワ",
-              "pt-BR": "Moscou",
-              "ru": "Москва",
-              "zh-CN": "莫斯科"
+              "de": "Klin",
+              "en": "Klin",
+              "fr": "Kline",
+              "ja": "クリン",
+              "ru": "Клин",
+              "zh-CN": "克林"
             },
-            "geoname_id": 524901
+            "geoname_id": 547523
           },
           "subdivision": {
-            "iso_code": "MOW",
-            "name": "Moscow",
+            "iso_code": "MOS",
+            "name": "Moscow Oblast",
             "names": {
-              "de": "Moskau",
-              "en": "Moscow",
-              "es": "Moscú",
-              "fr": "Moscou",
-              "ja": "モスクワ",
-              "pt-BR": "Moscou",
-              "ru": "Москва"
+              "de": "Oblast Moskau",
+              "en": "Moscow Oblast",
+              "es": "Óblast de Moscú",
+              "fr": "oblast de Moscou",
+              "ja": "モスクワ州",
+              "pt-BR": "Oblast de Moscou",
+              "ru": "Московская область",
+              "zh-CN": "莫斯科州"
             },
-            "geoname_id": 524894
+            "geoname_id": 524925
           },
           "location": {
-            "latitude": 55.7487,
-            "longitude": 37.6187,
-            "accuracy_radius": 20,
+            "latitude": 56.3333,
+            "longitude": 36.736,
+            "accuracy_radius": 100,
             "time_zone": "Europe/Moscow"
           },
           "postal": {
-            "code": "101000"
+            "code": "141600"
           },
           "asn": {
             "number": 12714,
@@ -1783,13 +1796,13 @@
             "geoname_id": 1857352
           },
           "location": {
-            "latitude": 34.7268,
-            "longitude": 136.5145,
-            "accuracy_radius": 50,
+            "latitude": 34.7361,
+            "longitude": 136.522,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "514-0031"
+            "code": "514-0011"
           },
           "asn": {
             "number": 18126,
@@ -1958,18 +1971,12 @@
             }
           },
           "city": {
-            "name": "Tokyo",
+            "name": "Sumiyoshichō",
             "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Tokyo",
-              "ja": "東京",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京"
+              "en": "Sumiyoshichō",
+              "ja": "住吉町"
             },
-            "geoname_id": 1850147
+            "geoname_id": 10878376
           },
           "subdivision": {
             "iso_code": "13",
@@ -1987,13 +1994,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6837,
-            "longitude": 139.6805,
-            "accuracy_radius": 10,
+            "latitude": 35.7414,
+            "longitude": 139.5396,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "151-0071"
+            "code": "202-0001"
           },
           "asn": {
             "number": 4725,
@@ -2164,7 +2171,8 @@
           "city": {
             "name": "Anyang-si",
             "names": {
-              "en": "Anyang-si"
+              "en": "Anyang-si",
+              "ru": "Анянг-Си"
             },
             "geoname_id": 1846898
           },
@@ -2335,12 +2343,12 @@
             }
           },
           "city": {
-            "name": "Amanuma",
+            "name": "Sumiyoshichō",
             "names": {
-              "en": "Amanuma",
-              "ja": "天沼"
+              "en": "Sumiyoshichō",
+              "ja": "住吉町"
             },
-            "geoname_id": 8573718
+            "geoname_id": 10878376
           },
           "subdivision": {
             "iso_code": "13",
@@ -2358,13 +2366,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.7177,
-            "longitude": 139.6265,
+            "latitude": 35.7414,
+            "longitude": 139.5396,
             "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "167-0031"
+            "code": "202-0001"
           },
           "asn": {
             "number": 2516,
@@ -2509,11 +2517,13 @@
             }
           },
           "city": {
-            "name": "Uijeongbu-si",
+            "name": "Namyangju",
             "names": {
-              "en": "Uijeongbu-si"
+              "en": "Namyangju",
+              "ja": "南楊州市",
+              "ru": "Намянджу"
             },
-            "geoname_id": 1833788
+            "geoname_id": 1897122
           },
           "subdivision": {
             "iso_code": "41",
@@ -2531,13 +2541,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.7413,
-            "longitude": 127.0361,
-            "accuracy_radius": 5,
+            "latitude": 37.6675,
+            "longitude": 127.2383,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "116"
+            "code": "121"
           },
           "asn": {
             "number": 4766,
@@ -2784,13 +2794,13 @@
             "geoname_id": 5815135
           },
           "location": {
-            "latitude": 47.5461,
-            "longitude": -122.3723,
+            "latitude": 47.4902,
+            "longitude": -122.3004,
             "accuracy_radius": 20,
             "time_zone": "America/Los_Angeles"
           },
           "postal": {
-            "code": "98126"
+            "code": "98168"
           },
           "asn": {
             "number": 209,
@@ -2885,13 +2895,13 @@
             "geoname_id": 2112518
           },
           "location": {
-            "latitude": 39.1307,
-            "longitude": 141.1457,
-            "accuracy_radius": 100,
+            "latitude": 39.1306,
+            "longitude": 141.1589,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "023-0891"
+            "code": "023-0821"
           },
           "asn": {
             "number": 2516,
@@ -3038,7 +3048,8 @@
           "city": {
             "name": "Anyang-si",
             "names": {
-              "en": "Anyang-si"
+              "en": "Anyang-si",
+              "ru": "Анянг-Си"
             },
             "geoname_id": 1846898
           },
@@ -3239,12 +3250,18 @@
             }
           },
           "city": {
-            "name": "Yoyogi",
+            "name": "Tokyo",
             "names": {
-              "en": "Yoyogi",
-              "ja": "代々木"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Tokyo",
+              "ja": "東京",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京"
             },
-            "geoname_id": 10866689
+            "geoname_id": 1850147
           },
           "subdivision": {
             "iso_code": "13",
@@ -3262,13 +3279,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6786,
-            "longitude": 139.6953,
+            "latitude": 35.6837,
+            "longitude": 139.6805,
             "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "151-0051"
+            "code": "151-0071"
           },
           "asn": {
             "number": 4713,
@@ -3339,11 +3356,18 @@
             }
           },
           "city": {
-            "name": "Pak Chong",
+            "name": "Nakhon Ratchasima",
             "names": {
-              "en": "Pak Chong"
+              "de": "Nakhon Ratchasima",
+              "en": "Nakhon Ratchasima",
+              "es": "Nakhon Ratchasima",
+              "fr": "Nakhon Ratchasima",
+              "ja": "ナコーンラーチャシーマー",
+              "pt-BR": "Nakhon Ratchasima",
+              "ru": "Накхонратчасима",
+              "zh-CN": "呵叻"
             },
-            "geoname_id": 1608057
+            "geoname_id": 1608529
           },
           "subdivision": {
             "iso_code": "30",
@@ -3360,13 +3384,13 @@
             "geoname_id": 1608528
           },
           "location": {
-            "latitude": 14.706,
-            "longitude": 101.4093,
+            "latitude": 15.0556,
+            "longitude": 102.22,
             "accuracy_radius": 100,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
-            "code": "30130"
+            "code": "30000"
           },
           "asn": {
             "number": 133481,
@@ -3543,33 +3567,36 @@
             }
           },
           "city": {
-            "name": "Seo-gu",
+            "name": "Gunpo",
             "names": {
-              "en": "Seo-gu"
+              "en": "Gunpo",
+              "ru": "Кунпхо"
             },
-            "geoname_id": 8419685
+            "geoname_id": 1842030
           },
           "subdivision": {
-            "iso_code": "30",
-            "name": "Daejeon",
+            "iso_code": "41",
+            "name": "Gyeonggi-do",
             "names": {
-              "de": "Daejeon",
-              "en": "Daejeon",
-              "es": "Daejeon",
-              "fr": "Daejeon",
-              "ja": "大田",
-              "pt-BR": "Daejeon"
+              "de": "Gyeonggi-do",
+              "en": "Gyeonggi-do",
+              "es": "Gyeonggi-do",
+              "fr": "Gyeonggi-do",
+              "ja": "京畿道",
+              "pt-BR": "Gyeonggi-do",
+              "ru": "Кёнгидо",
+              "zh-CN": "京畿道"
             },
-            "geoname_id": 1835224
+            "geoname_id": 1841610
           },
           "location": {
-            "latitude": 36.2981,
-            "longitude": 127.3362,
-            "accuracy_radius": 5,
+            "latitude": 37.3466,
+            "longitude": 126.9332,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "353"
+            "code": "158"
           },
           "asn": {
             "number": 4766,
@@ -3926,16 +3953,12 @@
             }
           },
           "city": {
-            "name": "Okayama",
+            "name": "Harada",
             "names": {
-              "de": "Okayama",
-              "en": "Okayama",
-              "fr": "Okayama",
-              "ja": "岡山市",
-              "pt-BR": "Okayama",
-              "ru": "Окаяма"
+              "en": "Harada",
+              "ja": "原田"
             },
-            "geoname_id": 1854383
+            "geoname_id": 1863157
           },
           "subdivision": {
             "iso_code": "33",
@@ -3952,13 +3975,13 @@
             "geoname_id": 1854381
           },
           "location": {
-            "latitude": 34.657,
-            "longitude": 133.9436,
-            "accuracy_radius": 50,
+            "latitude": 35.0069,
+            "longitude": 133.9843,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "703-8291"
+            "code": "709-3711"
           },
           "asn": {
             "number": 7664,
@@ -4052,13 +4075,13 @@
             "geoname_id": 1856210
           },
           "location": {
-            "latitude": 36.63,
-            "longitude": 138.1795,
-            "accuracy_radius": 50,
+            "latitude": 36.6663,
+            "longitude": 138.2021,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "380-0941"
+            "code": "380-0831"
           },
           "asn": {
             "number": 2516,
@@ -4231,41 +4254,37 @@
             }
           },
           "city": {
-            "name": "Yokohama",
+            "name": "Ikebukuro",
             "names": {
-              "de": "Yokohama",
-              "en": "Yokohama",
-              "es": "Yokohama",
-              "fr": "Yokohama",
-              "ja": "横浜市",
-              "pt-BR": "Yokohama",
-              "ru": "Иокогама",
-              "zh-CN": "横滨市"
+              "en": "Ikebukuro",
+              "ja": "池袋",
+              "zh-CN": "池袋"
             },
-            "geoname_id": 1848354
+            "geoname_id": 7522199
           },
           "subdivision": {
-            "iso_code": "14",
-            "name": "Kanagawa",
+            "iso_code": "13",
+            "name": "Tokyo",
             "names": {
-              "de": "Präfektur Kanagawa",
-              "en": "Kanagawa",
-              "es": "prefectura de Kanagawa",
-              "fr": "préfecture de Kanagawa",
-              "ja": "神奈川県",
-              "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Préfecture de Tokyo",
+              "ja": "東京都",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京都"
             },
-            "geoname_id": 1860291
+            "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.4338,
-            "longitude": 139.6496,
+            "latitude": 35.7392,
+            "longitude": 139.703,
             "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "231-0841"
+            "code": "170-8686"
           },
           "asn": {
             "number": 2514,
@@ -4772,8 +4791,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.6053,
-            "longitude": 126.9231,
+            "latitude": 37.6039,
+            "longitude": 126.9421,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -4849,14 +4868,16 @@
             }
           },
           "city": {
-            "name": "Kariya",
+            "name": "Ichinomiya",
             "names": {
-              "en": "Kariya",
-              "ja": "刈谷市",
-              "ru": "Кария",
-              "zh-CN": "刈谷市"
+              "de": "Ichinomiya",
+              "en": "Ichinomiya",
+              "fr": "Ichinomiya",
+              "ja": "一宮市",
+              "pt-BR": "Owari-ichinomiya",
+              "ru": "Итиномия"
             },
-            "geoname_id": 1860034
+            "geoname_id": 1861949
           },
           "subdivision": {
             "iso_code": "23",
@@ -4873,13 +4894,13 @@
             "geoname_id": 1865694
           },
           "location": {
-            "latitude": 34.9687,
-            "longitude": 137.0146,
-            "accuracy_radius": 50,
+            "latitude": 35.3082,
+            "longitude": 136.8024,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "448-0811"
+            "code": "491-0851"
           },
           "asn": {
             "number": 2527,
@@ -5459,13 +5480,13 @@
             "geoname_id": 1865694
           },
           "location": {
-            "latitude": 34.9887,
-            "longitude": 136.8708,
+            "latitude": 34.9738,
+            "longitude": 136.8622,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "478-0051"
+            "code": "478-0011"
           },
           "asn": {
             "number": 9354,
@@ -5835,34 +5856,35 @@
             }
           },
           "city": {
-            "name": "Dong-gu",
+            "name": "Naju",
             "names": {
-              "en": "Dong-gu"
+              "en": "Naju",
+              "ja": "羅州市",
+              "ru": "Наджу"
             },
-            "geoname_id": 8462137
+            "geoname_id": 1840536
           },
           "subdivision": {
-            "iso_code": "29",
-            "name": "Gwangju",
+            "iso_code": "46",
+            "name": "Jeollanam-do",
             "names": {
-              "de": "Gwangju",
-              "en": "Gwangju",
-              "es": "Gwangju",
-              "fr": "Gwangju",
-              "ja": "光州廣域市",
-              "pt-BR": "Gwangju",
-              "zh-CN": "光州广域市"
+              "de": "Jeollanam-do",
+              "en": "Jeollanam-do",
+              "es": "Jeollanam-do",
+              "fr": "Jeollanam-do",
+              "ja": "全羅南道",
+              "pt-BR": "Jeollanam-do"
             },
-            "geoname_id": 1841808
+            "geoname_id": 1845788
           },
           "location": {
-            "latitude": 35.1496,
-            "longitude": 126.9156,
-            "accuracy_radius": 200,
+            "latitude": 35.019,
+            "longitude": 126.7892,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "614"
+            "code": "582"
           },
           "asn": {
             "number": 4766,
@@ -6071,7 +6093,7 @@
           },
           "asn": {
             "number": 20845,
-            "organization": "DIGI Tavkozlesi es Szolgaltato Kft.",
+            "organization": "2Connect Telecommunications Infrastructure & Network Services Ltd.",
             "network": "176.241.0.0/18"
           }
         }
@@ -6317,7 +6339,7 @@
           "location": {
             "latitude": 35.69,
             "longitude": 139.69,
-            "accuracy_radius": 200,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "asn": {
@@ -6494,11 +6516,14 @@
             }
           },
           "city": {
-            "name": "Dongjak-gu",
+            "name": "Gwanak-gu",
             "names": {
-              "en": "Dongjak-gu"
+              "en": "Gwanak-gu",
+              "ja": "冠岳区",
+              "ru": "Кванак",
+              "zh-CN": "冠岳区"
             },
-            "geoname_id": 1834245
+            "geoname_id": 1841893
           },
           "subdivision": {
             "iso_code": "11",
@@ -6515,13 +6540,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.4926,
-            "longitude": 126.92,
+            "latitude": 37.4625,
+            "longitude": 126.9438,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "070"
+            "code": "088"
           },
           "asn": {
             "number": 4766,
@@ -6594,7 +6619,7 @@
           "location": {
             "latitude": 35.69,
             "longitude": 139.69,
-            "accuracy_radius": 20,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "asn": {
@@ -6845,12 +6870,17 @@
             }
           },
           "city": {
-            "name": "Nagataminami",
+            "name": "Hiratsuka",
             "names": {
-              "en": "Nagataminami",
-              "ja": "永田南"
+              "de": "Hiratsuka",
+              "en": "Hiratsuka",
+              "fr": "Hiratsuka",
+              "ja": "平塚市",
+              "pt-BR": "Hiratsuka",
+              "ru": "Хирацука",
+              "zh-CN": "平塚市"
             },
-            "geoname_id": 11081235
+            "geoname_id": 1862462
           },
           "subdivision": {
             "iso_code": "14",
@@ -6867,13 +6897,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.4404,
-            "longitude": 139.5877,
-            "accuracy_radius": 10,
+            "latitude": 35.3334,
+            "longitude": 139.3423,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "232-0071"
+            "code": "254-0051"
           },
           "asn": {
             "number": 4725,
@@ -6944,12 +6974,12 @@
             }
           },
           "city": {
-            "name": "Tomiya",
+            "name": "Yoshioka",
             "names": {
-              "en": "Tomiya",
-              "ja": "富谷市"
+              "en": "Yoshioka",
+              "ja": "吉岡"
             },
-            "geoname_id": 2110744
+            "geoname_id": 2110481
           },
           "subdivision": {
             "iso_code": "04",
@@ -6966,13 +6996,13 @@
             "geoname_id": 2111888
           },
           "location": {
-            "latitude": 38.3961,
-            "longitude": 140.9145,
-            "accuracy_radius": 10,
+            "latitude": 38.4412,
+            "longitude": 140.8904,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "981-3321"
+            "code": "981-3621"
           },
           "asn": {
             "number": 2516,
@@ -7063,13 +7093,13 @@
             "geoname_id": 1642907
           },
           "location": {
-            "latitude": -6.181,
-            "longitude": 106.7739,
+            "latitude": -6.1624,
+            "longitude": 106.7857,
             "accuracy_radius": 10,
             "time_zone": "Asia/Jakarta"
           },
           "postal": {
-            "code": "11510"
+            "code": "11460"
           },
           "asn": {
             "number": 23700,
@@ -7580,13 +7610,13 @@
             "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.6449,
-            "longitude": 139.8984,
+            "latitude": 35.6681,
+            "longitude": 139.8872,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "279-0021"
+            "code": "279-0001"
           },
           "asn": {
             "number": 2527,
@@ -7657,13 +7687,12 @@
             }
           },
           "city": {
-            "name": "Tatebayashi",
+            "name": "Aramakimachi",
             "names": {
-              "en": "Tatebayashi",
-              "ja": "館林市",
-              "ru": "Татебаяси"
+              "en": "Aramakimachi",
+              "ja": "荒牧町"
             },
-            "geoname_id": 1850559
+            "geoname_id": 9187304
           },
           "subdivision": {
             "iso_code": "10",
@@ -7680,13 +7709,13 @@
             "geoname_id": 1863501
           },
           "location": {
-            "latitude": 36.2552,
-            "longitude": 139.5468,
+            "latitude": 36.4301,
+            "longitude": 139.0576,
             "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "374-0021"
+            "code": "371-0041"
           },
           "asn": {
             "number": 2497,
@@ -8068,40 +8097,36 @@
             }
           },
           "city": {
-            "name": "Incheon",
+            "name": "Bucheon-si",
             "names": {
-              "de": "Incheon",
-              "en": "Incheon",
-              "es": "Inchon",
-              "fr": "Incheon",
-              "ja": "仁川広域市",
-              "pt-BR": "Incheon",
-              "ru": "Инчхон",
-              "zh-CN": "仁川广域市"
+              "en": "Bucheon-si",
+              "ru": "Пучхон"
             },
-            "geoname_id": 1843564
+            "geoname_id": 1838716
           },
           "subdivision": {
-            "iso_code": "28",
-            "name": "Incheon",
+            "iso_code": "41",
+            "name": "Gyeonggi-do",
             "names": {
-              "de": "Incheon",
-              "en": "Incheon",
-              "es": "Incheon",
-              "fr": "Incheon",
-              "ja": "仁川",
-              "pt-BR": "Incheon"
+              "de": "Gyeonggi-do",
+              "en": "Gyeonggi-do",
+              "es": "Gyeonggi-do",
+              "fr": "Gyeonggi-do",
+              "ja": "京畿道",
+              "pt-BR": "Gyeonggi-do",
+              "ru": "Кёнгидо",
+              "zh-CN": "京畿道"
             },
-            "geoname_id": 1843561
+            "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.4585,
-            "longitude": 126.7015,
+            "latitude": 37.4987,
+            "longitude": 126.7828,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "21554"
+            "code": "14554"
           },
           "asn": {
             "number": 4766,
@@ -8193,13 +8218,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.6087,
-            "longitude": 127.0898,
-            "accuracy_radius": 10,
+            "latitude": 37.5988,
+            "longitude": 127.1076,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "020"
+            "code": "022"
           },
           "asn": {
             "number": 4766,
@@ -8609,7 +8634,7 @@
           "location": {
             "latitude": 10.822,
             "longitude": 106.6257,
-            "accuracy_radius": 50,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Ho_Chi_Minh"
           },
           "postal": {
@@ -8714,7 +8739,7 @@
           "location": {
             "latitude": 37.5658,
             "longitude": 126.978,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -8992,33 +9017,39 @@
             }
           },
           "city": {
-            "name": "Nam-gu",
+            "name": "Jeju City",
             "names": {
-              "en": "Nam-gu"
+              "de": "Jeju",
+              "en": "Jeju City",
+              "es": "Jeju",
+              "fr": "Jeju",
+              "ja": "済州市",
+              "pt-BR": "Jeju",
+              "ru": "Чеджу"
             },
-            "geoname_id": 8605089
+            "geoname_id": 1846266
           },
           "subdivision": {
-            "iso_code": "31",
-            "name": "Ulsan",
+            "iso_code": "49",
+            "name": "Jeju-do",
             "names": {
-              "de": "Ulsan",
-              "en": "Ulsan",
-              "es": "Ulsan",
-              "fr": "Ulsan",
-              "ja": "蔚山",
-              "pt-BR": "Ulsan"
+              "de": "Jeju-do",
+              "en": "Jeju-do",
+              "es": "Jeju-do",
+              "fr": "Jeju-do",
+              "ja": "済州道",
+              "pt-BR": "Jeju-do"
             },
-            "geoname_id": 1833742
+            "geoname_id": 1846265
           },
           "location": {
-            "latitude": 35.5335,
-            "longitude": 129.3173,
-            "accuracy_radius": 100,
+            "latitude": 33.4871,
+            "longitude": 126.4839,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "446"
+            "code": "630"
           },
           "asn": {
             "number": 4766,
@@ -9218,13 +9249,13 @@
             "geoname_id": 5332921
           },
           "location": {
-            "latitude": 38.5347,
-            "longitude": -121.4442,
+            "latitude": 38.482,
+            "longitude": -121.4015,
             "accuracy_radius": 100,
             "time_zone": "America/Los_Angeles"
           },
           "postal": {
-            "code": "95820"
+            "code": "95828"
           },
           "asn": {
             "number": 7922,
@@ -9597,14 +9628,11 @@
             }
           },
           "city": {
-            "name": "Hwaseong-si",
+            "name": "Yangsan",
             "names": {
-              "en": "Hwaseong-si",
-              "ja": "華城市",
-              "ru": "Хвасон",
-              "zh-CN": "华城市"
+              "en": "Yangsan"
             },
-            "geoname_id": 1843847
+            "geoname_id": 6575263
           },
           "subdivision": {
             "iso_code": "41",
@@ -9622,13 +9650,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.2072,
-            "longitude": 126.8168,
-            "accuracy_radius": 10,
+            "latitude": 37.1963,
+            "longitude": 127.0198,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "18261"
+            "code": "18101"
           },
           "asn": {
             "number": 4766,
@@ -9797,11 +9825,18 @@
             }
           },
           "city": {
-            "name": "Yeongdo-gu",
+            "name": "Busan",
             "names": {
-              "en": "Yeongdo-gu"
+              "de": "Busan",
+              "en": "Busan",
+              "es": "Busán",
+              "fr": "Pusan",
+              "ja": "釜山広域市",
+              "pt-BR": "Busan",
+              "ru": "Пусан",
+              "zh-CN": "釜山广域市"
             },
-            "geoname_id": 1832581
+            "geoname_id": 1838524
           },
           "subdivision": {
             "iso_code": "26",
@@ -9818,13 +9853,13 @@
             "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.0763,
-            "longitude": 129.0608,
+            "latitude": 35.1025,
+            "longitude": 129.0394,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "491"
+            "code": "48947"
           },
           "asn": {
             "number": 4766,
@@ -9894,11 +9929,35 @@
               "zh-CN": "亚洲"
             }
           },
+          "city": {
+            "name": "Buk-gu",
+            "names": {
+              "en": "Buk-gu"
+            },
+            "geoname_id": 8462136
+          },
+          "subdivision": {
+            "iso_code": "29",
+            "name": "Gwangju",
+            "names": {
+              "de": "Gwangju",
+              "en": "Gwangju",
+              "es": "Gwangju",
+              "fr": "Gwangju",
+              "ja": "光州廣域市",
+              "pt-BR": "Gwangju",
+              "zh-CN": "光州广域市"
+            },
+            "geoname_id": 1841808
+          },
           "location": {
-            "latitude": 37.5112,
-            "longitude": 126.9741,
-            "accuracy_radius": 1000,
+            "latitude": 35.1839,
+            "longitude": 126.9163,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Seoul"
+          },
+          "postal": {
+            "code": "611"
           },
           "asn": {
             "number": 38673,
@@ -9969,12 +10028,12 @@
             }
           },
           "city": {
-            "name": "Setagaya City",
+            "name": "Kamiochiai",
             "names": {
-              "en": "Setagaya City",
-              "ja": "世田谷"
+              "en": "Kamiochiai",
+              "ja": "上落合"
             },
-            "geoname_id": 11790342
+            "geoname_id": 11790354
           },
           "subdivision": {
             "iso_code": "13",
@@ -9992,13 +10051,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6413,
-            "longitude": 139.6662,
-            "accuracy_radius": 20,
+            "latitude": 35.723,
+            "longitude": 139.6748,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "154-0011"
+            "code": "161-0031"
           },
           "asn": {
             "number": 2497,
@@ -10455,13 +10514,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.7904,
-            "longitude": 139.4636,
-            "accuracy_radius": 10,
+            "latitude": 35.7989,
+            "longitude": 139.4746,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "359-1131"
+            "code": "359-0021"
           },
           "asn": {
             "number": 2516,
@@ -10730,18 +10789,11 @@
             }
           },
           "city": {
-            "name": "Incheon",
+            "name": "Bupyeong-gu",
             "names": {
-              "de": "Incheon",
-              "en": "Incheon",
-              "es": "Inchon",
-              "fr": "Incheon",
-              "ja": "仁川広域市",
-              "pt-BR": "Incheon",
-              "ru": "Инчхон",
-              "zh-CN": "仁川广域市"
+              "en": "Bupyeong-gu"
             },
-            "geoname_id": 1843564
+            "geoname_id": 8417647
           },
           "subdivision": {
             "iso_code": "28",
@@ -10757,13 +10809,13 @@
             "geoname_id": 1843561
           },
           "location": {
-            "latitude": 37.4585,
-            "longitude": 126.7015,
-            "accuracy_radius": 5,
+            "latitude": 37.4902,
+            "longitude": 126.7151,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "21554"
+            "code": "214"
           },
           "asn": {
             "number": 4766,
@@ -10908,12 +10960,12 @@
             }
           },
           "city": {
-            "name": "Tōyō",
+            "name": "Kameido",
             "names": {
-              "en": "Tōyō",
-              "ja": "東陽"
+              "en": "Kameido",
+              "ja": "亀戸"
             },
-            "geoname_id": 1864055
+            "geoname_id": 1860637
           },
           "subdivision": {
             "iso_code": "13",
@@ -10931,13 +10983,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6848,
-            "longitude": 139.8179,
+            "latitude": 35.703,
+            "longitude": 139.8308,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "135-0011"
+            "code": "136-0071"
           },
           "asn": {
             "number": 2516,
@@ -11008,18 +11060,12 @@
             }
           },
           "city": {
-            "name": "Tokyo",
+            "name": "Yoyogi",
             "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Tokyo",
-              "ja": "東京",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京"
+              "en": "Yoyogi",
+              "ja": "代々木"
             },
-            "geoname_id": 1850147
+            "geoname_id": 10866689
           },
           "subdivision": {
             "iso_code": "13",
@@ -11037,13 +11083,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6837,
-            "longitude": 139.6805,
-            "accuracy_radius": 10,
+            "latitude": 35.6786,
+            "longitude": 139.6953,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "151-0071"
+            "code": "151-0051"
           },
           "asn": {
             "number": 2519,
@@ -11250,7 +11296,7 @@
           "location": {
             "latitude": 35.6837,
             "longitude": 139.6805,
-            "accuracy_radius": 20,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -11423,16 +11469,17 @@
             }
           },
           "city": {
-            "name": "Funabashi",
+            "name": "Kashiwa",
             "names": {
-              "de": "Funabashi",
-              "en": "Funabashi",
-              "fr": "Funabashi",
-              "ja": "船橋市",
-              "pt-BR": "Funabashi",
-              "ru": "Фунабаси"
+              "de": "Kashiwa",
+              "en": "Kashiwa",
+              "fr": "Kashiwa",
+              "ja": "柏市",
+              "pt-BR": "Kashiwa",
+              "ru": "Касива",
+              "zh-CN": "柏市"
             },
-            "geoname_id": 1863905
+            "geoname_id": 1859924
           },
           "subdivision": {
             "iso_code": "12",
@@ -11449,13 +11496,13 @@
             "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.7025,
-            "longitude": 139.997,
-            "accuracy_radius": 10,
+            "latitude": 35.8634,
+            "longitude": 139.9654,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "273-0001"
+            "code": "277-0021"
           },
           "asn": {
             "number": 4713,
@@ -11600,16 +11647,17 @@
             }
           },
           "city": {
-            "name": "Funabashi",
+            "name": "Kashiwa",
             "names": {
-              "de": "Funabashi",
-              "en": "Funabashi",
-              "fr": "Funabashi",
-              "ja": "船橋市",
-              "pt-BR": "Funabashi",
-              "ru": "Фунабаси"
+              "de": "Kashiwa",
+              "en": "Kashiwa",
+              "fr": "Kashiwa",
+              "ja": "柏市",
+              "pt-BR": "Kashiwa",
+              "ru": "Касива",
+              "zh-CN": "柏市"
             },
-            "geoname_id": 1863905
+            "geoname_id": 1859924
           },
           "subdivision": {
             "iso_code": "12",
@@ -11626,13 +11674,13 @@
             "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.7025,
-            "longitude": 139.997,
-            "accuracy_radius": 50,
+            "latitude": 35.8761,
+            "longitude": 139.9802,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "273-0001"
+            "code": "277-0001"
           },
           "asn": {
             "number": 2527,
@@ -11732,7 +11780,7 @@
           "location": {
             "latitude": 34.9804,
             "longitude": 138.3854,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -11883,7 +11931,8 @@
           "city": {
             "name": "Goyang-si",
             "names": {
-              "en": "Goyang-si"
+              "en": "Goyang-si",
+              "ru": "Коян"
             },
             "geoname_id": 1842485
           },
@@ -11982,7 +12031,8 @@
           "city": {
             "name": "Anyang-si",
             "names": {
-              "en": "Anyang-si"
+              "en": "Anyang-si",
+              "ru": "Анянг-Си"
             },
             "geoname_id": 1846898
           },
@@ -12103,7 +12153,7 @@
           "location": {
             "latitude": 37.7428,
             "longitude": 126.737,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -12180,7 +12230,8 @@
           "city": {
             "name": "Hanam",
             "names": {
-              "en": "Hanam"
+              "en": "Hanam",
+              "ru": "Ханам"
             },
             "geoname_id": 1897007
           },
@@ -12351,12 +12402,12 @@
             }
           },
           "city": {
-            "name": "Gohongi",
+            "name": "Kamiochiai",
             "names": {
-              "en": "Gohongi",
-              "ja": "五本木"
+              "en": "Kamiochiai",
+              "ja": "上落合"
             },
-            "geoname_id": 10866754
+            "geoname_id": 11790354
           },
           "subdivision": {
             "iso_code": "13",
@@ -12374,13 +12425,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6383,
-            "longitude": 139.6937,
-            "accuracy_radius": 20,
+            "latitude": 35.723,
+            "longitude": 139.6748,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "153-0051"
+            "code": "161-0031"
           },
           "asn": {
             "number": 2519,
@@ -12482,7 +12533,7 @@
           "location": {
             "latitude": 48.4817,
             "longitude": 135.083,
-            "accuracy_radius": 20,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Vladivostok"
           },
           "postal": {
@@ -12665,7 +12716,8 @@
           "city": {
             "name": "Seongnam-si",
             "names": {
-              "en": "Seongnam-si"
+              "en": "Seongnam-si",
+              "ru": "Сеонгнам-Си"
             },
             "geoname_id": 1897000
           },
@@ -12762,17 +12814,15 @@
             }
           },
           "city": {
-            "name": "Osaka",
+            "name": "Kishiwada",
             "names": {
-              "de": "Ōsaka",
-              "en": "Osaka",
-              "es": "Osaka",
-              "fr": "Osaka",
-              "ja": "大阪市",
-              "pt-BR": "Osaka",
-              "ru": "Осака"
+              "de": "Kishiwada",
+              "en": "Kishiwada",
+              "ja": "岸和田市",
+              "pt-BR": "Kishiwada",
+              "ru": "Кисивада"
             },
-            "geoname_id": 1853909
+            "geoname_id": 1859383
           },
           "subdivision": {
             "iso_code": "27",
@@ -12789,13 +12839,13 @@
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6967,
-            "longitude": 135.5154,
-            "accuracy_radius": 100,
+            "latitude": 34.4651,
+            "longitude": 135.3659,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "530-0041"
+            "code": "596-0061"
           },
           "asn": {
             "number": 55392,
@@ -13277,12 +13327,12 @@
             }
           },
           "city": {
-            "name": "Ikegami",
+            "name": "Nakanobu",
             "names": {
-              "en": "Ikegami",
-              "ja": "池上"
+              "en": "Nakanobu",
+              "ja": "中延"
             },
-            "geoname_id": 8576507
+            "geoname_id": 8576480
           },
           "subdivision": {
             "iso_code": "13",
@@ -13300,13 +13350,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.5828,
-            "longitude": 139.6987,
+            "latitude": 35.6052,
+            "longitude": 139.7092,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "146-0081"
+            "code": "142-0053"
           },
           "asn": {
             "number": 2516,
@@ -13402,7 +13452,7 @@
           "location": {
             "latitude": 43.1094,
             "longitude": 141.3922,
-            "accuracy_radius": 50,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -13786,12 +13836,18 @@
             }
           },
           "city": {
-            "name": "Ebisu",
+            "name": "Tokyo",
             "names": {
-              "en": "Ebisu",
-              "ja": "恵比寿"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Tokyo",
+              "ja": "東京",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京"
             },
-            "geoname_id": 10866730
+            "geoname_id": 1850147
           },
           "subdivision": {
             "iso_code": "13",
@@ -13809,13 +13865,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6527,
-            "longitude": 139.7086,
-            "accuracy_radius": 20,
+            "latitude": 35.6837,
+            "longitude": 139.6805,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "150-0011"
+            "code": "151-0071"
           },
           "asn": {
             "number": 4725,
@@ -13886,12 +13942,16 @@
             }
           },
           "city": {
-            "name": "Arakawa",
+            "name": "Adachi",
             "names": {
-              "en": "Arakawa",
-              "ja": "荒川区"
+              "de": "Adachi",
+              "en": "Adachi",
+              "es": "Adachi",
+              "fr": "Adachi",
+              "ja": "足立区",
+              "pt-BR": "Adachi"
             },
-            "geoname_id": 1865187
+            "geoname_id": 1865750
           },
           "subdivision": {
             "iso_code": "13",
@@ -13909,13 +13969,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.7479,
-            "longitude": 139.7897,
+            "latitude": 35.7747,
+            "longitude": 139.7989,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "116-0001"
+            "code": "120-0000"
           },
           "asn": {
             "number": 2516,
@@ -14190,12 +14250,14 @@
             }
           },
           "city": {
-            "name": "Kasama",
+            "name": "Ebina",
             "names": {
-              "en": "Kasama",
-              "ja": "笠間"
+              "en": "Ebina",
+              "ja": "海老名",
+              "ru": "Эбина",
+              "zh-CN": "海老名市"
             },
-            "geoname_id": 11058939
+            "geoname_id": 6822128
           },
           "subdivision": {
             "iso_code": "14",
@@ -14212,13 +14274,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.3696,
-            "longitude": 139.558,
+            "latitude": 35.4389,
+            "longitude": 139.3899,
             "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "247-0001"
+            "code": "243-0411"
           },
           "asn": {
             "number": 2516,
@@ -14389,42 +14451,41 @@
             }
           },
           "city": {
-            "name": "Kyoto",
+            "name": "Kobe",
             "names": {
-              "de": "Kyōto",
-              "en": "Kyoto",
-              "es": "Kioto",
-              "fr": "Kyōto",
-              "ja": "京都市",
-              "pt-BR": "Quioto",
-              "ru": "Киото",
-              "zh-CN": "京都"
+              "de": "Kōbe",
+              "en": "Kobe",
+              "es": "Kōbe",
+              "fr": "Kōbe",
+              "ja": "神戸市",
+              "pt-BR": "Kobe",
+              "ru": "Кобе",
+              "zh-CN": "神户市"
             },
-            "geoname_id": 1857910
+            "geoname_id": 1859171
           },
           "subdivision": {
-            "iso_code": "26",
-            "name": "Kyoto",
+            "iso_code": "28",
+            "name": "Hyōgo",
             "names": {
-              "de": "Präfektur Kyōto",
-              "en": "Kyoto",
-              "es": "Prefectura de Kioto",
-              "fr": "Préfecture de Kyoto",
-              "ja": "京都府",
-              "pt-BR": "Quioto",
-              "ru": "Киото",
-              "zh-CN": "京都府"
+              "de": "Präfektur Hyogo",
+              "en": "Hyōgo",
+              "es": "Prefectura de Hyogo",
+              "fr": "préfecture de Hyōgo",
+              "ja": "兵庫県",
+              "pt-BR": "Hyōgo",
+              "ru": "Хиого"
             },
-            "geoname_id": 1857907
+            "geoname_id": 1862047
           },
           "location": {
-            "latitude": 35.0231,
-            "longitude": 135.752,
-            "accuracy_radius": 100,
+            "latitude": 34.6922,
+            "longitude": 135.1816,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "602-8051"
+            "code": "650-0011"
           },
           "asn": {
             "number": 2514,
@@ -14595,18 +14656,12 @@
             }
           },
           "city": {
-            "name": "Yokohama",
+            "name": "Imaichō",
             "names": {
-              "de": "Yokohama",
-              "en": "Yokohama",
-              "es": "Yokohama",
-              "fr": "Yokohama",
-              "ja": "横浜市",
-              "pt-BR": "Yokohama",
-              "ru": "Иокогама",
-              "zh-CN": "横滨市"
+              "en": "Imaichō",
+              "ja": "今井町"
             },
-            "geoname_id": 1848354
+            "geoname_id": 11082245
           },
           "subdivision": {
             "iso_code": "14",
@@ -14623,13 +14678,13 @@
             "geoname_id": 1860291
           },
           "location": {
-            "latitude": 35.4338,
-            "longitude": 139.6496,
-            "accuracy_radius": 20,
+            "latitude": 35.4495,
+            "longitude": 139.5754,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "231-0841"
+            "code": "240-0031"
           },
           "asn": {
             "number": 4713,
@@ -14826,13 +14881,13 @@
             "geoname_id": 2112669
           },
           "location": {
-            "latitude": 36.0696,
-            "longitude": 140.1051,
+            "latitude": 36.0776,
+            "longitude": 140.0902,
             "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "305-0031"
+            "code": "305-0821"
           },
           "asn": {
             "number": 4713,
@@ -15023,7 +15078,7 @@
           "location": {
             "latitude": 35.6837,
             "longitude": 139.6805,
-            "accuracy_radius": 50,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -15098,11 +15153,11 @@
             }
           },
           "city": {
-            "name": "Gunpo",
+            "name": "Uiwang-si",
             "names": {
-              "en": "Gunpo"
+              "en": "Uiwang-si"
             },
-            "geoname_id": 1842030
+            "geoname_id": 8393796
           },
           "subdivision": {
             "iso_code": "41",
@@ -15120,13 +15175,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.3466,
-            "longitude": 126.9332,
-            "accuracy_radius": 10,
+            "latitude": 37.3463,
+            "longitude": 126.9711,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "158"
+            "code": "16069"
           },
           "asn": {
             "number": 17858,
@@ -15606,18 +15661,11 @@
             }
           },
           "city": {
-            "name": "Seoul",
+            "name": "Seongbuk-gu",
             "names": {
-              "de": "Seoul",
-              "en": "Seoul",
-              "es": "Seúl",
-              "fr": "Séoul",
-              "ja": "ソウル特別市",
-              "pt-BR": "Seul",
-              "ru": "Сеул",
-              "zh-CN": "首尔特别市"
+              "en": "Seongbuk-gu"
             },
-            "geoname_id": 1835848
+            "geoname_id": 8349532
           },
           "subdivision": {
             "iso_code": "11",
@@ -15634,13 +15682,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5639,
-            "longitude": 127.0188,
+            "latitude": 37.5961,
+            "longitude": 127.0292,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "045"
+            "code": "028"
           },
           "asn": {
             "number": 4766,
@@ -16119,11 +16167,11 @@
             }
           },
           "city": {
-            "name": "Mapo-gu",
+            "name": "Jongno-gu",
             "names": {
-              "en": "Mapo-gu"
+              "en": "Jongno-gu"
             },
-            "geoname_id": 1841277
+            "geoname_id": 1845581
           },
           "subdivision": {
             "iso_code": "11",
@@ -16140,13 +16188,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5681,
-            "longitude": 126.8998,
+            "latitude": 37.575,
+            "longitude": 126.9778,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "039"
+            "code": "031"
           },
           "asn": {
             "number": 9318,
@@ -16516,13 +16564,18 @@
             }
           },
           "city": {
-            "name": "Ansan-si",
+            "name": "Suwon",
             "names": {
-              "en": "Ansan-si",
-              "ja": "安山市",
-              "zh-CN": "安山市"
+              "de": "Suwon",
+              "en": "Suwon",
+              "es": "Suwon",
+              "fr": "Suwon",
+              "ja": "水原市",
+              "pt-BR": "Suwon",
+              "ru": "Сувон",
+              "zh-CN": "水原市"
             },
-            "geoname_id": 1846918
+            "geoname_id": 1835553
           },
           "subdivision": {
             "iso_code": "41",
@@ -16540,13 +16593,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.3253,
-            "longitude": 126.8178,
-            "accuracy_radius": 5,
+            "latitude": 37.2677,
+            "longitude": 127.0457,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "15345"
+            "code": "165"
           },
           "asn": {
             "number": 4766,
@@ -16619,7 +16672,8 @@
           "city": {
             "name": "Anyang-si",
             "names": {
-              "en": "Anyang-si"
+              "en": "Anyang-si",
+              "ru": "Анянг-Си"
             },
             "geoname_id": 1846898
           },
@@ -16814,11 +16868,11 @@
             }
           },
           "city": {
-            "name": "Jung-gu",
+            "name": "Buk-gu",
             "names": {
-              "en": "Jung-gu"
+              "en": "Buk-gu"
             },
-            "geoname_id": 8605097
+            "geoname_id": 8605100
           },
           "subdivision": {
             "iso_code": "31",
@@ -16834,13 +16888,13 @@
             "geoname_id": 1833742
           },
           "location": {
-            "latitude": 35.5833,
-            "longitude": 129.3477,
+            "latitude": 35.6325,
+            "longitude": 129.4392,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "444"
+            "code": "442"
           },
           "asn": {
             "number": 9318,
@@ -16911,33 +16965,34 @@
             }
           },
           "city": {
-            "name": "Daedeok-gu",
+            "name": "Jung-gu",
             "names": {
-              "en": "Daedeok-gu"
+              "en": "Jung-gu"
             },
-            "geoname_id": 1835409
+            "geoname_id": 1845068
           },
           "subdivision": {
-            "iso_code": "30",
-            "name": "Daejeon",
+            "iso_code": "11",
+            "name": "Seoul",
             "names": {
-              "de": "Daejeon",
-              "en": "Daejeon",
-              "es": "Daejeon",
-              "fr": "Daejeon",
-              "ja": "大田",
-              "pt-BR": "Daejeon"
+              "de": "Seoul",
+              "en": "Seoul",
+              "es": "Seúl",
+              "fr": "Séoul",
+              "ja": "ソウル特別市",
+              "pt-BR": "Seul",
+              "zh-CN": "首尔特别市"
             },
-            "geoname_id": 1835224
+            "geoname_id": 1835847
           },
           "location": {
-            "latitude": 36.4509,
-            "longitude": 127.4172,
-            "accuracy_radius": 100,
+            "latitude": 37.5576,
+            "longitude": 126.9937,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "343"
+            "code": "04625"
           },
           "asn": {
             "number": 4766,
@@ -17086,6 +17141,7 @@
             "names": {
               "en": "Ansan-si",
               "ja": "安山市",
+              "ru": "Ансан",
               "zh-CN": "安山市"
             },
             "geoname_id": 1846918
@@ -17280,18 +17336,12 @@
             }
           },
           "city": {
-            "name": "Koshigaya",
+            "name": "Negishi",
             "names": {
-              "de": "Koshigaya",
-              "en": "Koshigaya",
-              "es": "Koshigaya",
-              "fr": "Koshigaya",
-              "ja": "越谷市",
-              "pt-BR": "Koshigaya",
-              "ru": "Косигая",
-              "zh-CN": "越谷市"
+              "en": "Negishi",
+              "ja": "根岸"
             },
-            "geoname_id": 1858729
+            "geoname_id": 8572535
           },
           "subdivision": {
             "iso_code": "11",
@@ -17308,13 +17358,13 @@
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.8895,
-            "longitude": 139.7934,
-            "accuracy_radius": 50,
+            "latitude": 35.8553,
+            "longitude": 139.6416,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "343-0821"
+            "code": "336-0021"
           },
           "asn": {
             "number": 10010,
@@ -17485,18 +17535,12 @@
             }
           },
           "city": {
-            "name": "Naha",
+            "name": "Urasoe Shi",
             "names": {
-              "de": "Naha",
-              "en": "Naha",
-              "es": "Naha",
-              "fr": "Naha",
-              "ja": "那覇市",
-              "pt-BR": "Naha",
-              "ru": "Наха",
-              "zh-CN": "那霸市"
+              "en": "Urasoe Shi",
+              "ja": "浦添市"
             },
-            "geoname_id": 1856035
+            "geoname_id": 1849184
           },
           "subdivision": {
             "iso_code": "47",
@@ -17513,13 +17557,13 @@
             "geoname_id": 1854345
           },
           "location": {
-            "latitude": 26.2124,
-            "longitude": 127.6757,
-            "accuracy_radius": 20,
+            "latitude": 26.2498,
+            "longitude": 127.7093,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "900-0021"
+            "code": "901-2100"
           },
           "asn": {
             "number": 2516,
@@ -17590,35 +17634,39 @@
             }
           },
           "city": {
-            "name": "Seongnam-si",
+            "name": "Daegu",
             "names": {
-              "en": "Seongnam-si"
+              "de": "Daegu",
+              "en": "Daegu",
+              "es": "Daegu",
+              "fr": "Daegu",
+              "ja": "大邱広域市",
+              "pt-BR": "Daegu",
+              "ru": "Тэгу"
             },
-            "geoname_id": 1897000
+            "geoname_id": 1835329
           },
           "subdivision": {
-            "iso_code": "41",
-            "name": "Gyeonggi-do",
+            "iso_code": "27",
+            "name": "Daegu",
             "names": {
-              "de": "Gyeonggi-do",
-              "en": "Gyeonggi-do",
-              "es": "Gyeonggi-do",
-              "fr": "Gyeonggi-do",
-              "ja": "京畿道",
-              "pt-BR": "Gyeonggi-do",
-              "ru": "Кёнгидо",
-              "zh-CN": "京畿道"
+              "de": "Daegu",
+              "en": "Daegu",
+              "es": "Daegu",
+              "fr": "Daegu",
+              "ja": "大邱",
+              "pt-BR": "Daegu"
             },
-            "geoname_id": 1841610
+            "geoname_id": 1835327
           },
           "location": {
-            "latitude": 37.4331,
-            "longitude": 127.1377,
-            "accuracy_radius": 200,
+            "latitude": 35.8723,
+            "longitude": 128.5924,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "13332"
+            "code": "41934"
           },
           "asn": {
             "number": 4766,
@@ -17938,7 +17986,8 @@
           "city": {
             "name": "Seongnam-si",
             "names": {
-              "en": "Seongnam-si"
+              "en": "Seongnam-si",
+              "ru": "Сеонгнам-Си"
             },
             "geoname_id": 1897000
           },
@@ -18035,18 +18084,12 @@
             }
           },
           "city": {
-            "name": "Tokyo",
+            "name": "Kamiochiai",
             "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Tokyo",
-              "ja": "東京",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京"
+              "en": "Kamiochiai",
+              "ja": "上落合"
             },
-            "geoname_id": 1850147
+            "geoname_id": 11790354
           },
           "subdivision": {
             "iso_code": "13",
@@ -18064,13 +18107,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6837,
-            "longitude": 139.6805,
+            "latitude": 35.723,
+            "longitude": 139.6748,
             "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "151-0071"
+            "code": "161-0031"
           },
           "asn": {
             "number": 2519,
@@ -18141,18 +18184,11 @@
             }
           },
           "city": {
-            "name": "Daejeon",
+            "name": "Yuseong-gu",
             "names": {
-              "de": "Daejeon",
-              "en": "Daejeon",
-              "es": "Daejeon",
-              "fr": "Daejeon",
-              "ja": "大田広域市",
-              "pt-BR": "Daejeon",
-              "ru": "Тэджон",
-              "zh-CN": "大田广域市"
+              "en": "Yuseong-gu"
             },
-            "geoname_id": 1835235
+            "geoname_id": 8419684
           },
           "subdivision": {
             "iso_code": "30",
@@ -18168,13 +18204,13 @@
             "geoname_id": 1835224
           },
           "location": {
-            "latitude": 36.3566,
-            "longitude": 127.3849,
+            "latitude": 36.3636,
+            "longitude": 127.3634,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "35242"
+            "code": "341"
           },
           "asn": {
             "number": 4766,
@@ -18380,7 +18416,7 @@
           "location": {
             "latitude": 35.6837,
             "longitude": 139.6805,
-            "accuracy_radius": 10,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -18486,7 +18522,7 @@
           "location": {
             "latitude": 35.6837,
             "longitude": 139.6805,
-            "accuracy_radius": 20,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -18592,7 +18628,7 @@
           "location": {
             "latitude": 13.7101,
             "longitude": 100.4543,
-            "accuracy_radius": 10,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -18698,7 +18734,7 @@
           "location": {
             "latitude": 43.0763,
             "longitude": 141.3654,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -18772,25 +18808,10 @@
               "zh-CN": "亚洲"
             }
           },
-          "subdivision": {
-            "iso_code": "13",
-            "name": "Tokyo",
-            "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Préfecture de Tokyo",
-              "ja": "東京都",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京都"
-            },
-            "geoname_id": 1850144
-          },
           "location": {
-            "latitude": 35.6893,
-            "longitude": 139.6899,
-            "accuracy_radius": 20,
+            "latitude": 35.69,
+            "longitude": 139.69,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "asn": {
@@ -18885,13 +18906,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.7268,
-            "longitude": 139.833,
-            "accuracy_radius": 10,
+            "latitude": 35.708,
+            "longitude": 139.8188,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "131-0041"
+            "code": "131-0045"
           },
           "asn": {
             "number": 2527,
@@ -18961,23 +18982,9 @@
               "zh-CN": "亚洲"
             }
           },
-          "subdivision": {
-            "iso_code": "14",
-            "name": "Kanagawa",
-            "names": {
-              "de": "Präfektur Kanagawa",
-              "en": "Kanagawa",
-              "es": "prefectura de Kanagawa",
-              "fr": "préfecture de Kanagawa",
-              "ja": "神奈川県",
-              "pt-BR": "Kanagawa",
-              "ru": "Канагава"
-            },
-            "geoname_id": 1860291
-          },
           "location": {
-            "latitude": 35.4337,
-            "longitude": 139.6499,
+            "latitude": 35.69,
+            "longitude": 139.69,
             "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
@@ -19050,14 +19057,12 @@
             }
           },
           "city": {
-            "name": "Dazaifu",
+            "name": "Futsukaichiminami",
             "names": {
-              "en": "Dazaifu",
-              "ja": "太宰府市",
-              "ru": "Дадзайфу",
-              "zh-CN": "太宰府市"
+              "en": "Futsukaichiminami",
+              "ja": "二日市南"
             },
-            "geoname_id": 7422816
+            "geoname_id": 11809651
           },
           "subdivision": {
             "iso_code": "40",
@@ -19074,13 +19079,13 @@
             "geoname_id": 1863958
           },
           "location": {
-            "latitude": 33.5048,
-            "longitude": 130.5317,
-            "accuracy_radius": 5,
+            "latitude": 33.4868,
+            "longitude": 130.5252,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "818-0121"
+            "code": "818-0051"
           },
           "asn": {
             "number": 2527,
@@ -19248,12 +19253,12 @@
             }
           },
           "city": {
-            "name": "Asagayakita",
+            "name": "Wada",
             "names": {
-              "en": "Asagayakita",
-              "ja": "阿佐谷北"
+              "en": "Wada",
+              "ja": "和田"
             },
-            "geoname_id": 10866555
+            "geoname_id": 1849002
           },
           "subdivision": {
             "iso_code": "13",
@@ -19271,13 +19276,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.7094,
-            "longitude": 139.6381,
+            "latitude": 35.6945,
+            "longitude": 139.6524,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "166-0001"
+            "code": "166-0011"
           },
           "asn": {
             "number": 9824,
@@ -19348,11 +19353,18 @@
             }
           },
           "city": {
-            "name": "Seongbuk-gu",
+            "name": "Seoul",
             "names": {
-              "en": "Seongbuk-gu"
+              "de": "Seoul",
+              "en": "Seoul",
+              "es": "Seúl",
+              "fr": "Séoul",
+              "ja": "ソウル特別市",
+              "pt-BR": "Seul",
+              "ru": "Сеул",
+              "zh-CN": "首尔特别市"
             },
-            "geoname_id": 8349532
+            "geoname_id": 1835848
           },
           "subdivision": {
             "iso_code": "11",
@@ -19369,13 +19381,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.6127,
-            "longitude": 127.0496,
+            "latitude": 37.5639,
+            "longitude": 127.0188,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "027"
+            "code": "045"
           },
           "asn": {
             "number": 4766,
@@ -19858,7 +19870,8 @@
           "city": {
             "name": "Seongnam-si",
             "names": {
-              "en": "Seongnam-si"
+              "en": "Seongnam-si",
+              "ru": "Сеонгнам-Си"
             },
             "geoname_id": 1897000
           },
@@ -20437,7 +20450,7 @@
           "location": {
             "latitude": 33.8365,
             "longitude": 132.742,
-            "accuracy_radius": 10,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -20512,33 +20525,36 @@
             }
           },
           "city": {
-            "name": "Gyeyang-gu",
+            "name": "Bucheon-si",
             "names": {
-              "en": "Gyeyang-gu"
+              "en": "Bucheon-si",
+              "ru": "Пучхон"
             },
-            "geoname_id": 6363700
+            "geoname_id": 1838716
           },
           "subdivision": {
-            "iso_code": "28",
-            "name": "Incheon",
+            "iso_code": "41",
+            "name": "Gyeonggi-do",
             "names": {
-              "de": "Incheon",
-              "en": "Incheon",
-              "es": "Incheon",
-              "fr": "Incheon",
-              "ja": "仁川",
-              "pt-BR": "Incheon"
+              "de": "Gyeonggi-do",
+              "en": "Gyeonggi-do",
+              "es": "Gyeonggi-do",
+              "fr": "Gyeonggi-do",
+              "ja": "京畿道",
+              "pt-BR": "Gyeonggi-do",
+              "ru": "Кёнгидо",
+              "zh-CN": "京畿道"
             },
-            "geoname_id": 1843561
+            "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.5494,
-            "longitude": 126.7483,
-            "accuracy_radius": 20,
+            "latitude": 37.5188,
+            "longitude": 126.8126,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "210"
+            "code": "144"
           },
           "asn": {
             "number": 17858,
@@ -20609,35 +20625,36 @@
             }
           },
           "city": {
-            "name": "Midorichō",
+            "name": "Ichikawa",
             "names": {
-              "en": "Midorichō",
-              "ja": "緑町"
+              "en": "Ichikawa",
+              "ja": "市川市",
+              "ru": "Итикава"
             },
-            "geoname_id": 11033496
+            "geoname_id": 1861964
           },
           "subdivision": {
-            "iso_code": "11",
-            "name": "Saitama",
+            "iso_code": "12",
+            "name": "Chiba",
             "names": {
-              "de": "Präfektur Saitama",
-              "en": "Saitama",
-              "es": "prefectura de Saitama",
-              "fr": "préfecture de Saitama",
-              "ja": "埼玉県",
-              "pt-BR": "Saitama",
-              "ru": "Сайтама"
+              "de": "Präfektur Chiba",
+              "en": "Chiba",
+              "es": "Prefectura de Chiba",
+              "fr": "préfecture de Chiba",
+              "ja": "千葉県",
+              "pt-BR": "Chiba",
+              "ru": "Тиба"
             },
-            "geoname_id": 1853226
+            "geoname_id": 2113014
           },
           "location": {
-            "latitude": 35.8095,
-            "longitude": 139.6989,
-            "accuracy_radius": 20,
+            "latitude": 35.7238,
+            "longitude": 139.9369,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "332-0021"
+            "code": "272-0021"
           },
           "asn": {
             "number": 2527,
@@ -20707,23 +20724,9 @@
               "zh-CN": "亚洲"
             }
           },
-          "subdivision": {
-            "iso_code": "27",
-            "name": "Osaka",
-            "names": {
-              "de": "Präfektur Osaka",
-              "en": "Osaka",
-              "es": "Prefectura de Osaka",
-              "fr": "préfecture d'Osaka",
-              "ja": "大阪府",
-              "pt-BR": "Osaka",
-              "ru": "Осака"
-            },
-            "geoname_id": 1853904
-          },
           "location": {
-            "latitude": 34.693,
-            "longitude": 135.5005,
+            "latitude": 35.69,
+            "longitude": 139.69,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
@@ -20796,13 +20799,11 @@
             }
           },
           "city": {
-            "name": "Namyangju",
+            "name": "Yangpyeong",
             "names": {
-              "en": "Namyangju",
-              "ja": "南楊州市",
-              "ru": "Намянджу"
+              "en": "Yangpyeong"
             },
-            "geoname_id": 1897122
+            "geoname_id": 1832830
           },
           "subdivision": {
             "iso_code": "41",
@@ -20820,13 +20821,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.6675,
-            "longitude": 127.2383,
-            "accuracy_radius": 5,
+            "latitude": 37.4878,
+            "longitude": 127.4875,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "121"
+            "code": "125"
           },
           "asn": {
             "number": 4766,
@@ -20897,11 +20898,11 @@
             }
           },
           "city": {
-            "name": "Yeongdeungpo-gu",
+            "name": "Mapo-gu",
             "names": {
-              "en": "Yeongdeungpo-gu"
+              "en": "Mapo-gu"
             },
-            "geoname_id": 6364105
+            "geoname_id": 1841277
           },
           "subdivision": {
             "iso_code": "11",
@@ -20918,13 +20919,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5156,
-            "longitude": 126.9111,
-            "accuracy_radius": 100,
+            "latitude": 37.5521,
+            "longitude": 126.9505,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "073"
+            "code": "041"
           },
           "asn": {
             "number": 17858,
@@ -21120,7 +21121,7 @@
           "location": {
             "latitude": 21.0184,
             "longitude": 105.8461,
-            "accuracy_radius": 200,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -21293,11 +21294,18 @@
             }
           },
           "city": {
-            "name": "Suyeong-gu",
+            "name": "Busan",
             "names": {
-              "en": "Suyeong-gu"
+              "de": "Busan",
+              "en": "Busan",
+              "es": "Busán",
+              "fr": "Pusan",
+              "ja": "釜山広域市",
+              "pt-BR": "Busan",
+              "ru": "Пусан",
+              "zh-CN": "釜山广域市"
             },
-            "geoname_id": 8541971
+            "geoname_id": 1838524
           },
           "subdivision": {
             "iso_code": "26",
@@ -21314,13 +21322,13 @@
             "geoname_id": 1838519
           },
           "location": {
-            "latitude": 35.1513,
-            "longitude": 129.1203,
+            "latitude": 35.1025,
+            "longitude": 129.0394,
             "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "482"
+            "code": "489"
           },
           "asn": {
             "number": 4766,
