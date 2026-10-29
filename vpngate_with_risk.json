@@ -5624,7 +5624,7 @@
           "location": {
             "latitude": 34.693,
             "longitude": 135.5005,
-            "accuracy_radius": 200,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
           },
           "asn": {
@@ -10220,7 +10220,7 @@
           "asn": {
             "number": 20055,
             "organization": "Wholesail networks LLC",
-            "network": "50.53.112.0/21"
+            "network": "50.53.96.0/19"
           }
         }
       },
@@ -11836,7 +11836,7 @@
             "geoname_id": 1851715
           },
           "location": {
-            "latitude": 34.9804,
+            "latitude": 34.9808,
             "longitude": 138.3854,
             "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
@@ -12458,12 +12458,18 @@
             }
           },
           "city": {
-            "name": "Ebara",
+            "name": "Tokyo",
             "names": {
-              "en": "Ebara",
-              "ja": "荏原"
+              "de": "Tokio",
+              "en": "Tokyo",
+              "es": "Tokio",
+              "fr": "Tokyo",
+              "ja": "東京",
+              "pt-BR": "Tóquio",
+              "ru": "Токио",
+              "zh-CN": "东京"
             },
-            "geoname_id": 8576482
+            "geoname_id": 1850147
           },
           "subdivision": {
             "iso_code": "13",
@@ -12481,13 +12487,13 @@
             "geoname_id": 1850144
           },
           "location": {
-            "latitude": 35.6249,
-            "longitude": 139.7028,
-            "accuracy_radius": 20,
+            "latitude": 35.6837,
+            "longitude": 139.6805,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "142-0061"
+            "code": "151-0071"
           },
           "asn": {
             "number": 2519,
@@ -12897,13 +12903,13 @@
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6967,
-            "longitude": 135.5154,
+            "latitude": 34.6802,
+            "longitude": 135.5029,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "530-0041"
+            "code": "541-0051"
           },
           "asn": {
             "number": 55392,
@@ -16947,8 +16953,8 @@
             "geoname_id": 1833742
           },
           "location": {
-            "latitude": 35.6325,
-            "longitude": 129.4392,
+            "latitude": 35.5988,
+            "longitude": 129.3678,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
