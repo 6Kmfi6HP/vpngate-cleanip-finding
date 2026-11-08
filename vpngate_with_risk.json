@@ -884,7 +884,8 @@
               "es": "Yuma",
               "fr": "Yuma",
               "ja": "ユマ",
-              "ru": "Юма"
+              "ru": "Юма",
+              "zh-CN": "尤马"
             },
             "geoname_id": 5322053
           },
@@ -898,7 +899,8 @@
               "fr": "Arizona",
               "ja": "アリゾナ州",
               "pt-BR": "Arizona",
-              "ru": "Аризона"
+              "ru": "Аризона",
+              "zh-CN": "亚利桑那州"
             },
             "geoname_id": 5551752
           },
@@ -1240,7 +1242,8 @@
               "fr": "préfecture d'Osaka",
               "ja": "大阪府",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪府"
             },
             "geoname_id": 1853904
           },
@@ -1687,7 +1690,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -1792,7 +1796,8 @@
               "fr": "préfecture de Mie",
               "ja": "三重県",
               "pt-BR": "Mie",
-              "ru": "Миэ"
+              "ru": "Миэ",
+              "zh-CN": "三重县"
             },
             "geoname_id": 1857352
           },
@@ -2199,13 +2204,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.3907,
-            "longitude": 126.9167,
+            "latitude": 37.4027,
+            "longitude": 126.9257,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "140"
+            "code": "139"
           },
           "asn": {
             "number": 4766,
@@ -2528,7 +2533,8 @@
             "names": {
               "en": "Namyangju",
               "ja": "南楊州市",
-              "ru": "Намянджу"
+              "ru": "Намянджу",
+              "zh-CN": "南杨州市"
             },
             "geoname_id": 1897122
           },
@@ -2550,7 +2556,7 @@
           "location": {
             "latitude": 37.6334,
             "longitude": 127.1282,
-            "accuracy_radius": 50,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -2644,7 +2650,8 @@
               "fr": "préfecture de Gunma",
               "ja": "群馬県",
               "pt-BR": "Gunma",
-              "ru": "Гумма"
+              "ru": "Гумма",
+              "zh-CN": "群马县"
             },
             "geoname_id": 1863501
           },
@@ -2808,7 +2815,8 @@
               "fr": "Seattle",
               "ja": "シアトル",
               "pt-BR": "Seattle",
-              "ru": "Сиэтл"
+              "ru": "Сиэтл",
+              "zh-CN": "西雅图"
             },
             "geoname_id": 5809844
           },
@@ -2828,13 +2836,13 @@
             "geoname_id": 5815135
           },
           "location": {
-            "latitude": 47.4902,
-            "longitude": -122.3004,
+            "latitude": 47.5741,
+            "longitude": -122.3975,
             "accuracy_radius": 20,
             "time_zone": "America/Los_Angeles"
           },
           "postal": {
-            "code": "98168"
+            "code": "98116"
           },
           "asn": {
             "number": 209,
@@ -2910,7 +2918,8 @@
               "en": "Ōshū",
               "ja": "奧州",
               "pt-BR": "Oshu",
-              "ru": "Осю"
+              "ru": "Осю",
+              "zh-CN": "奥州市"
             },
             "geoname_id": 6822184
           },
@@ -2924,7 +2933,8 @@
               "fr": "préfecture d'Iwate",
               "ja": "岩手県",
               "pt-BR": "Iwate",
-              "ru": "Иватэ"
+              "ru": "Иватэ",
+              "zh-CN": "岩手县"
             },
             "geoname_id": 2112518
           },
@@ -3202,7 +3212,8 @@
               "fr": "préfecture de Chiba",
               "ja": "千葉県",
               "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "ru": "Тиба",
+              "zh-CN": "千叶县"
             },
             "geoname_id": 2113014
           },
@@ -3413,7 +3424,8 @@
               "fr": "Nakhon Ratchasima",
               "ja": "ナコーンラーチャシーマー県",
               "pt-BR": "Nakhon Ratchasima",
-              "ru": "Накхонратчасима"
+              "ru": "Накхонратчасима",
+              "zh-CN": "那空叻差是玛府"
             },
             "geoname_id": 1608528
           },
@@ -4028,7 +4040,8 @@
               "fr": "préfecture d'Okayama",
               "ja": "岡山県",
               "pt-BR": "Okayama",
-              "ru": "Окаяма"
+              "ru": "Окаяма",
+              "zh-CN": "冈山县"
             },
             "geoname_id": 1854381
           },
@@ -4128,14 +4141,15 @@
               "fr": "préfecture de Nagano",
               "ja": "長野県",
               "pt-BR": "Nagano",
-              "ru": "Нагано"
+              "ru": "Нагано",
+              "zh-CN": "长野县"
             },
             "geoname_id": 1856210
           },
           "location": {
             "latitude": 36.6663,
             "longitude": 138.2021,
-            "accuracy_radius": 5,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -4436,7 +4450,8 @@
               "fr": "préfecture d'Aichi",
               "ja": "愛知県",
               "pt-BR": "Aichi",
-              "ru": "Айти"
+              "ru": "Айти",
+              "zh-CN": "爱知县"
             },
             "geoname_id": 1865694
           },
@@ -4641,7 +4656,8 @@
               "fr": "préfecture d'Aichi",
               "ja": "愛知県",
               "pt-BR": "Aichi",
-              "ru": "Айти"
+              "ru": "Айти",
+              "zh-CN": "爱知县"
             },
             "geoname_id": 1865694
           },
@@ -4945,7 +4961,8 @@
               "fr": "préfecture d'Aichi",
               "ja": "愛知県",
               "pt-BR": "Aichi",
-              "ru": "Айти"
+              "ru": "Айти",
+              "zh-CN": "爱知县"
             },
             "geoname_id": 1865694
           },
@@ -5055,13 +5072,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5658,
-            "longitude": 126.978,
+            "latitude": 37.5639,
+            "longitude": 127.0188,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "04524"
+            "code": "045"
           },
           "asn": {
             "number": 4766,
@@ -5351,7 +5368,8 @@
               "fr": "préfecture de Fukuoka",
               "ja": "福岡県",
               "pt-BR": "Fukuoka",
-              "ru": "Фукуока"
+              "ru": "Фукуока",
+              "zh-CN": "福冈县"
             },
             "geoname_id": 1863958
           },
@@ -5526,7 +5544,8 @@
               "fr": "préfecture d'Aichi",
               "ja": "愛知県",
               "pt-BR": "Aichi",
-              "ru": "Айти"
+              "ru": "Айти",
+              "zh-CN": "爱知县"
             },
             "geoname_id": 1865694
           },
@@ -5617,7 +5636,8 @@
               "fr": "préfecture d'Osaka",
               "ja": "大阪府",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪府"
             },
             "geoname_id": 1853904
           },
@@ -5825,7 +5845,8 @@
               "fr": "préfecture d'Osaka",
               "ja": "大阪府",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪府"
             },
             "geoname_id": 1853904
           },
@@ -5911,7 +5932,8 @@
             "names": {
               "en": "Naju",
               "ja": "羅州市",
-              "ru": "Наджу"
+              "ru": "Наджу",
+              "zh-CN": "罗州市"
             },
             "geoname_id": 1840536
           },
@@ -6485,7 +6507,8 @@
               "fr": "préfecture d'Aomori",
               "ja": "青森県",
               "pt-BR": "Aomori",
-              "ru": "Аомори"
+              "ru": "Аомори",
+              "zh-CN": "青森县"
             },
             "geoname_id": 2130656
           },
@@ -6938,7 +6961,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -7037,7 +7061,8 @@
               "fr": "préfecture de Miyagi",
               "ja": "宮城県",
               "pt-BR": "Miyagi",
-              "ru": "Мияги"
+              "ru": "Мияги",
+              "zh-CN": "宫城县"
             },
             "geoname_id": 2111888
           },
@@ -7224,7 +7249,8 @@
               "fr": "Osaka",
               "ja": "大阪市",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪市"
             },
             "geoname_id": 1853909
           },
@@ -7238,7 +7264,8 @@
               "fr": "préfecture d'Osaka",
               "ja": "大阪府",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪府"
             },
             "geoname_id": 1853904
           },
@@ -7444,7 +7471,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -7548,7 +7576,8 @@
               "fr": "préfecture de Chiba",
               "ja": "千葉県",
               "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "ru": "Тиба",
+              "zh-CN": "千叶县"
             },
             "geoname_id": 2113014
           },
@@ -7652,7 +7681,8 @@
               "fr": "préfecture de Chiba",
               "ja": "千葉県",
               "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "ru": "Тиба",
+              "zh-CN": "千叶县"
             },
             "geoname_id": 2113014
           },
@@ -7738,7 +7768,8 @@
             "names": {
               "en": "Isesaki",
               "ja": "伊勢崎市",
-              "ru": "Исэсаки"
+              "ru": "Исэсаки",
+              "zh-CN": "伊势崎市"
             },
             "geoname_id": 1861436
           },
@@ -7752,7 +7783,8 @@
               "fr": "préfecture de Gunma",
               "ja": "群馬県",
               "pt-BR": "Gunma",
-              "ru": "Гумма"
+              "ru": "Гумма",
+              "zh-CN": "群马县"
             },
             "geoname_id": 1863501
           },
@@ -7940,42 +7972,42 @@
             }
           },
           "city": {
-            "name": "Ho Chi Minh City",
+            "name": "Can Tho",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh City",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "HCMV",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хошимин",
-              "zh-CN": "胡志明市"
+              "de": "Cần Thơ",
+              "en": "Can Tho",
+              "es": "Can Tho",
+              "fr": "Cần Thơ",
+              "ja": "カントー",
+              "pt-BR": "Can Tho",
+              "ru": "Кан Тхо",
+              "zh-CN": "芹苴市"
             },
-            "geoname_id": 1566083
+            "geoname_id": 1586203
           },
           "subdivision": {
-            "iso_code": "SG",
-            "name": "Ho Chi Minh",
+            "iso_code": "CT",
+            "name": "Can Tho",
             "names": {
-              "de": "Ho-Chi-Minh-Stadt",
-              "en": "Ho Chi Minh",
-              "es": "Ciudad Ho Chi Minh",
-              "fr": "Saigon",
-              "ja": "ホーチミン市",
-              "pt-BR": "Cidade de Ho Chi Minh",
-              "ru": "Хо Ши Мин",
-              "zh-CN": "胡志明市"
+              "de": "Cần Thơ",
+              "en": "Can Tho",
+              "es": "Cần Thơ",
+              "fr": "Cần Thơ",
+              "ja": "カントー",
+              "pt-BR": "Can Tho",
+              "ru": "Кантхо",
+              "zh-CN": "芹苴市"
             },
-            "geoname_id": 1580578
+            "geoname_id": 1581188
           },
           "location": {
-            "latitude": 10.822,
-            "longitude": 106.6257,
-            "accuracy_radius": 5,
+            "latitude": 10.0361,
+            "longitude": 105.7941,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Ho_Chi_Minh"
           },
           "postal": {
-            "code": "700000"
+            "code": "900000"
           },
           "asn": {
             "number": 7552,
@@ -8063,7 +8095,8 @@
               "fr": "préfecture de Fukuoka",
               "ja": "福岡県",
               "pt-BR": "Fukuoka",
-              "ru": "Фукуока"
+              "ru": "Фукуока",
+              "zh-CN": "福冈县"
             },
             "geoname_id": 1863958
           },
@@ -8475,7 +8508,7 @@
           "location": {
             "latitude": 37.3736,
             "longitude": 126.6555,
-            "accuracy_radius": 10,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -8972,11 +9005,11 @@
             }
           },
           "city": {
-            "name": "Yeonsu-gu",
+            "name": "Bupyeong-gu",
             "names": {
-              "en": "Yeonsu-gu"
+              "en": "Bupyeong-gu"
             },
-            "geoname_id": 8417654
+            "geoname_id": 8417647
           },
           "subdivision": {
             "iso_code": "28",
@@ -8992,13 +9025,13 @@
             "geoname_id": 1843561
           },
           "location": {
-            "latitude": 37.3736,
-            "longitude": 126.6555,
-            "accuracy_radius": 20,
+            "latitude": 37.5087,
+            "longitude": 126.7219,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "219"
+            "code": "213"
           },
           "asn": {
             "number": 4766,
@@ -9097,7 +9130,7 @@
           "location": {
             "latitude": 33.5137,
             "longitude": 126.5148,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -9176,7 +9209,8 @@
             "names": {
               "en": "Gwangju",
               "ja": "広州市",
-              "ru": "Кванджу"
+              "ru": "Кванджу",
+              "zh-CN": "广州市"
             },
             "geoname_id": 1841810
           },
@@ -9281,7 +9315,8 @@
               "fr": "Sacramento",
               "ja": "サクラメント",
               "pt-BR": "Sacramento",
-              "ru": "Сакраменто"
+              "ru": "Сакраменто",
+              "zh-CN": "沙加缅度"
             },
             "geoname_id": 5389489
           },
@@ -9312,7 +9347,7 @@
           "asn": {
             "number": 7922,
             "organization": "Comcast Cable Communications, LLC",
-            "network": "174.160.128.0/18"
+            "network": "174.160.128.0/17"
           }
         }
       },
@@ -9499,7 +9534,8 @@
               "fr": "préfecture de Tochigi",
               "ja": "栃木県",
               "pt-BR": "Tochigi",
-              "ru": "Тотиги"
+              "ru": "Тотиги",
+              "zh-CN": "栃木县"
             },
             "geoname_id": 1850310
           },
@@ -9598,7 +9634,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -9680,11 +9717,18 @@
             }
           },
           "city": {
-            "name": "Yangsan",
+            "name": "Suwon",
             "names": {
-              "en": "Yangsan"
+              "de": "Suwon",
+              "en": "Suwon",
+              "es": "Suwon",
+              "fr": "Suwon",
+              "ja": "水原市",
+              "pt-BR": "Suwon",
+              "ru": "Сувон",
+              "zh-CN": "水原市"
             },
-            "geoname_id": 6575263
+            "geoname_id": 1835553
           },
           "subdivision": {
             "iso_code": "41",
@@ -9702,13 +9746,13 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.1963,
-            "longitude": 127.0198,
-            "accuracy_radius": 200,
+            "latitude": 37.2506,
+            "longitude": 127.0668,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "18101"
+            "code": "166"
           },
           "asn": {
             "number": 4766,
@@ -10547,7 +10591,8 @@
               "fr": "Tokorozawa",
               "ja": "所沢市",
               "pt-BR": "Tokorozawa",
-              "ru": "Токородзава"
+              "ru": "Токородзава",
+              "zh-CN": "所泽市"
             },
             "geoname_id": 1850181
           },
@@ -10561,7 +10606,8 @@
               "fr": "préfecture de Saitama",
               "ja": "埼玉県",
               "pt-BR": "Saitama",
-              "ru": "Сайтама"
+              "ru": "Сайтама",
+              "zh-CN": "埼玉县"
             },
             "geoname_id": 1853226
           },
@@ -10759,7 +10805,8 @@
               "fr": "préfecture de Saitama",
               "ja": "埼玉県",
               "pt-BR": "Saitama",
-              "ru": "Сайтама"
+              "ru": "Сайтама",
+              "zh-CN": "埼玉县"
             },
             "geoname_id": 1853226
           },
@@ -11111,43 +11158,11 @@
               "zh-CN": "亚洲"
             }
           },
-          "city": {
-            "name": "Tokyo",
-            "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Tokyo",
-              "ja": "東京",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京"
-            },
-            "geoname_id": 1850147
-          },
-          "subdivision": {
-            "iso_code": "13",
-            "name": "Tokyo",
-            "names": {
-              "de": "Tokio",
-              "en": "Tokyo",
-              "es": "Tokio",
-              "fr": "Préfecture de Tokyo",
-              "ja": "東京都",
-              "pt-BR": "Tóquio",
-              "ru": "Токио",
-              "zh-CN": "东京都"
-            },
-            "geoname_id": 1850144
-          },
           "location": {
-            "latitude": 35.6837,
-            "longitude": 139.6805,
-            "accuracy_radius": 50,
+            "latitude": 35.69,
+            "longitude": 139.69,
+            "accuracy_radius": 100,
             "time_zone": "Asia/Tokyo"
-          },
-          "postal": {
-            "code": "151-0071"
           },
           "asn": {
             "number": 2519,
@@ -11241,7 +11256,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -11549,7 +11565,8 @@
               "fr": "préfecture de Chiba",
               "ja": "千葉県",
               "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "ru": "Тиба",
+              "zh-CN": "千叶县"
             },
             "geoname_id": 2113014
           },
@@ -11727,14 +11744,15 @@
               "fr": "préfecture de Chiba",
               "ja": "千葉県",
               "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "ru": "Тиба",
+              "zh-CN": "千叶县"
             },
             "geoname_id": 2113014
           },
           "location": {
             "latitude": 35.8761,
             "longitude": 139.9802,
-            "accuracy_radius": 20,
+            "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -11817,7 +11835,8 @@
               "fr": "Shizuoka",
               "ja": "静岡市",
               "pt-BR": "Shizuoka",
-              "ru": "Сидзуока"
+              "ru": "Сидзуока",
+              "zh-CN": "静冈市"
             },
             "geoname_id": 1851717
           },
@@ -11831,7 +11850,8 @@
               "fr": "préfecture de Shizuoka",
               "ja": "静岡県",
               "pt-BR": "Shizuoka",
-              "ru": "Сидзуока"
+              "ru": "Сидзуока",
+              "zh-CN": "静冈县"
             },
             "geoname_id": 1851715
           },
@@ -12884,7 +12904,8 @@
               "fr": "Osaka",
               "ja": "大阪市",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪市"
             },
             "geoname_id": 1853909
           },
@@ -12898,18 +12919,19 @@
               "fr": "préfecture d'Osaka",
               "ja": "大阪府",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪府"
             },
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6802,
-            "longitude": 135.5029,
+            "latitude": 34.6967,
+            "longitude": 135.5154,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "541-0051"
+            "code": "530-0041"
           },
           "asn": {
             "number": 55392,
@@ -12999,7 +13021,8 @@
               "fr": "préfecture d'Aichi",
               "ja": "愛知県",
               "pt-BR": "Aichi",
-              "ru": "Айти"
+              "ru": "Айти",
+              "zh-CN": "爱知县"
             },
             "geoname_id": 1865694
           },
@@ -13081,18 +13104,12 @@
             }
           },
           "city": {
-            "name": "Kawaguchi",
+            "name": "Kawagishi",
             "names": {
-              "de": "Kawaguchi",
-              "en": "Kawaguchi",
-              "es": "Kawaguchi",
-              "fr": "Kawaguchi",
-              "ja": "川口",
-              "pt-BR": "Kawaguchi",
-              "ru": "Кавагути",
-              "zh-CN": "川口市"
+              "en": "Kawagishi",
+              "ja": "川岸"
             },
-            "geoname_id": 1859730
+            "geoname_id": 11032557
           },
           "subdivision": {
             "iso_code": "11",
@@ -13104,18 +13121,19 @@
               "fr": "préfecture de Saitama",
               "ja": "埼玉県",
               "pt-BR": "Saitama",
-              "ru": "Сайтама"
+              "ru": "Сайтама",
+              "zh-CN": "埼玉县"
             },
             "geoname_id": 1853226
           },
           "location": {
-            "latitude": 35.7949,
-            "longitude": 139.7334,
-            "accuracy_radius": 20,
+            "latitude": 35.8038,
+            "longitude": 139.6874,
+            "accuracy_radius": 5,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "332-0011"
+            "code": "335-0015"
           },
           "asn": {
             "number": 2527,
@@ -13295,7 +13313,8 @@
               "fr": "Ichinomiya",
               "ja": "一宮市",
               "pt-BR": "Owari-ichinomiya",
-              "ru": "Итиномия"
+              "ru": "Итиномия",
+              "zh-CN": "一宫市"
             },
             "geoname_id": 1861949
           },
@@ -13309,7 +13328,8 @@
               "fr": "préfecture d'Aichi",
               "ja": "愛知県",
               "pt-BR": "Aichi",
-              "ru": "Айти"
+              "ru": "Айти",
+              "zh-CN": "爱知县"
             },
             "geoname_id": 1865694
           },
@@ -13494,7 +13514,8 @@
             "name": "Higashi Ku",
             "names": {
               "en": "Higashi Ku",
-              "ja": "東区"
+              "ja": "東区",
+              "zh-CN": "东区"
             },
             "geoname_id": 7429526
           },
@@ -13614,7 +13635,8 @@
               "fr": "Chiang Mai",
               "ja": "チエンマイ県",
               "pt-BR": "Chiang Mai",
-              "ru": "Чиангмай"
+              "ru": "Чиангмай",
+              "zh-CN": "清迈府"
             },
             "geoname_id": 1153670
           },
@@ -13718,7 +13740,8 @@
               "fr": "préfecture de Nagano",
               "ja": "長野県",
               "pt-BR": "Nagano",
-              "ru": "Нагано"
+              "ru": "Нагано",
+              "zh-CN": "长野县"
             },
             "geoname_id": 1856210
           },
@@ -13804,7 +13827,8 @@
             "names": {
               "en": "Isesaki",
               "ja": "伊勢崎市",
-              "ru": "Исэсаки"
+              "ru": "Исэсаки",
+              "zh-CN": "伊势崎市"
             },
             "geoname_id": 1861436
           },
@@ -13818,7 +13842,8 @@
               "fr": "préfecture de Gunma",
               "ja": "群馬県",
               "pt-BR": "Gunma",
-              "ru": "Гумма"
+              "ru": "Гумма",
+              "zh-CN": "群马县"
             },
             "geoname_id": 1863501
           },
@@ -14013,7 +14038,8 @@
               "es": "Adachi",
               "fr": "Adachi",
               "ja": "足立区",
-              "pt-BR": "Adachi"
+              "pt-BR": "Adachi",
+              "zh-CN": "足立区"
             },
             "geoname_id": 1865750
           },
@@ -14127,14 +14153,15 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
           "location": {
             "latitude": 35.5197,
             "longitude": 139.4335,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -14232,7 +14259,8 @@
               "fr": "préfecture de Hyōgo",
               "ja": "兵庫県",
               "pt-BR": "Hyōgo",
-              "ru": "Хиого"
+              "ru": "Хиого",
+              "zh-CN": "兵库县"
             },
             "geoname_id": 1862047
           },
@@ -14333,7 +14361,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -14433,7 +14462,8 @@
               "fr": "préfecture de Yamagata",
               "ja": "山形県",
               "pt-BR": "Yamagata",
-              "ru": "Ямагата"
+              "ru": "Ямагата",
+              "zh-CN": "山形县"
             },
             "geoname_id": 2110554
           },
@@ -14538,7 +14568,8 @@
               "fr": "préfecture de Hyōgo",
               "ja": "兵庫県",
               "pt-BR": "Hyōgo",
-              "ru": "Хиого"
+              "ru": "Хиого",
+              "zh-CN": "兵库县"
             },
             "geoname_id": 1862047
           },
@@ -14645,7 +14676,7 @@
           "location": {
             "latitude": 35.7414,
             "longitude": 139.5396,
-            "accuracy_radius": 5,
+            "accuracy_radius": 10,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -14737,14 +14768,15 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
           "location": {
             "latitude": 35.4495,
             "longitude": 139.5754,
-            "accuracy_radius": 10,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
@@ -14839,7 +14871,8 @@
               "fr": "préfecture d'Osaka",
               "ja": "大阪府",
               "pt-BR": "Osaka",
-              "ru": "Осака"
+              "ru": "Осака",
+              "zh-CN": "大阪府"
             },
             "geoname_id": 1853904
           },
@@ -14940,7 +14973,8 @@
               "fr": "préfecture d'Ibaraki",
               "ja": "茨城県",
               "pt-BR": "Ibaraki",
-              "ru": "Ибараки"
+              "ru": "Ибараки",
+              "zh-CN": "茨城县"
             },
             "geoname_id": 2112669
           },
@@ -15533,7 +15567,8 @@
               "fr": "Hanoï",
               "ja": "ハノイ",
               "pt-BR": "Hanói",
-              "ru": "Ханой"
+              "ru": "Ханой",
+              "zh-CN": "河内"
             },
             "geoname_id": 1581130
           },
@@ -15553,7 +15588,7 @@
           "location": {
             "latitude": 21.0184,
             "longitude": 105.8461,
-            "accuracy_radius": 5,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -15832,7 +15867,8 @@
               "fr": "Hanoï",
               "ja": "ハノイ",
               "pt-BR": "Hanói",
-              "ru": "Ханой"
+              "ru": "Ханой",
+              "zh-CN": "河内"
             },
             "geoname_id": 1581130
           },
@@ -15852,7 +15888,7 @@
           "location": {
             "latitude": 21.0184,
             "longitude": 105.8461,
-            "accuracy_radius": 5,
+            "accuracy_radius": 50,
             "time_zone": "Asia/Bangkok"
           },
           "postal": {
@@ -16253,8 +16289,8 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.575,
-            "longitude": 126.9778,
+            "latitude": 37.5701,
+            "longitude": 127.0171,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -16330,16 +16366,16 @@
             }
           },
           "city": {
-            "name": "Seocho-gu",
+            "name": "Gangnam-gu",
             "names": {
-              "de": "Seocho-gu",
-              "en": "Seocho-gu",
-              "fr": "Seocho-gu",
-              "ja": "瑞草区",
-              "ru": "Сочхо",
-              "zh-CN": "瑞草区"
+              "de": "Gangnam-gu",
+              "en": "Gangnam-gu",
+              "fr": "district de Gangnam",
+              "ja": "江南区",
+              "ru": "Каннамгу",
+              "zh-CN": "江南区"
             },
-            "geoname_id": 8349535
+            "geoname_id": 1843140
           },
           "subdivision": {
             "iso_code": "11",
@@ -16356,13 +16392,13 @@
             "geoname_id": 1835847
           },
           "location": {
-            "latitude": 37.5015,
-            "longitude": 127.0013,
+            "latitude": 37.5093,
+            "longitude": 127.0465,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "065"
+            "code": "061"
           },
           "asn": {
             "number": 9943,
@@ -16953,8 +16989,8 @@
             "geoname_id": 1833742
           },
           "location": {
-            "latitude": 35.5988,
-            "longitude": 129.3678,
+            "latitude": 35.6325,
+            "longitude": 129.4392,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -17053,7 +17089,7 @@
           "location": {
             "latitude": 37.5576,
             "longitude": 126.9937,
-            "accuracy_radius": 5,
+            "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
@@ -17418,7 +17454,8 @@
               "fr": "préfecture de Saitama",
               "ja": "埼玉県",
               "pt-BR": "Saitama",
-              "ru": "Сайтама"
+              "ru": "Сайтама",
+              "zh-CN": "埼玉县"
             },
             "geoname_id": 1853226
           },
@@ -17617,7 +17654,8 @@
               "fr": "Okinawa",
               "ja": "沖縄県",
               "pt-BR": "Okinawa",
-              "ru": "Окинава"
+              "ru": "Окинава",
+              "zh-CN": "冲绳县"
             },
             "geoname_id": 1854345
           },
@@ -17707,7 +17745,8 @@
               "fr": "Daegu",
               "ja": "大邱広域市",
               "pt-BR": "Daegu",
-              "ru": "Тэгу"
+              "ru": "Тэгу",
+              "zh-CN": "大邱广域市"
             },
             "geoname_id": 1835329
           },
@@ -17725,13 +17764,13 @@
             "geoname_id": 1835327
           },
           "location": {
-            "latitude": 35.8723,
-            "longitude": 128.5924,
+            "latitude": 35.8759,
+            "longitude": 128.6075,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "41934"
+            "code": "41914"
           },
           "asn": {
             "number": 4766,
@@ -17819,7 +17858,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -19063,7 +19103,8 @@
               "fr": "préfecture de Kanagawa",
               "ja": "神奈川県",
               "pt-BR": "Kanagawa",
-              "ru": "Канагава"
+              "ru": "Канагава",
+              "zh-CN": "神奈川县"
             },
             "geoname_id": 1860291
           },
@@ -19159,7 +19200,8 @@
               "fr": "préfecture de Fukuoka",
               "ja": "福岡県",
               "pt-BR": "Fukuoka",
-              "ru": "Фукуока"
+              "ru": "Фукуока",
+              "zh-CN": "福冈县"
             },
             "geoname_id": 1863958
           },
@@ -19758,7 +19800,8 @@
             "names": {
               "en": "Namyangju",
               "ja": "南楊州市",
-              "ru": "Намянджу"
+              "ru": "Намянджу",
+              "zh-CN": "南杨州市"
             },
             "geoname_id": 1897122
           },
@@ -20735,7 +20778,8 @@
               "fr": "préfecture de Chiba",
               "ja": "千葉県",
               "pt-BR": "Chiba",
-              "ru": "Тиба"
+              "ru": "Тиба",
+              "zh-CN": "千叶县"
             },
             "geoname_id": 2113014
           },
@@ -20895,7 +20939,8 @@
             "names": {
               "en": "Namyangju",
               "ja": "南楊州市",
-              "ru": "Намянджу"
+              "ru": "Намянджу",
+              "zh-CN": "南杨州市"
             },
             "geoname_id": 1897122
           },
@@ -21199,7 +21244,8 @@
               "fr": "Hanoï",
               "ja": "ハノイ",
               "pt-BR": "Hanói",
-              "ru": "Ханой"
+              "ru": "Ханой",
+              "zh-CN": "河内"
             },
             "geoname_id": 1581130
           },
