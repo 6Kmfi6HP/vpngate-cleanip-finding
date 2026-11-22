@@ -1693,7 +1693,7 @@
           "asn": {
             "number": 2527,
             "organization": "Sony Network Communications Inc.",
-            "network": "207.65.128.0/17"
+            "network": "207.65.192.0/18"
           }
         }
       },
@@ -2186,13 +2186,13 @@
             "geoname_id": 1843561
           },
           "location": {
-            "latitude": 37.5929,
-            "longitude": 126.688,
+            "latitude": 37.5303,
+            "longitude": 126.6533,
             "accuracy_radius": 10,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "226"
+            "code": "22741"
           },
           "asn": {
             "number": 4766,
@@ -4718,8 +4718,8 @@
             "geoname_id": 1841610
           },
           "location": {
-            "latitude": 37.2734,
-            "longitude": 127.0189,
+            "latitude": 37.2725,
+            "longitude": 127.0324,
             "accuracy_radius": 5,
             "time_zone": "Asia/Seoul"
           },
@@ -6092,7 +6092,7 @@
           "location": {
             "latitude": 47.5,
             "longitude": 19.0412,
-            "accuracy_radius": 100,
+            "accuracy_radius": 20,
             "time_zone": "Europe/Budapest"
           },
           "postal": {
@@ -12862,13 +12862,13 @@
             "geoname_id": 1853904
           },
           "location": {
-            "latitude": 34.6892,
-            "longitude": 135.4899,
+            "latitude": 34.6802,
+            "longitude": 135.5029,
             "accuracy_radius": 200,
             "time_zone": "Asia/Tokyo"
           },
           "postal": {
-            "code": "550-0001"
+            "code": "541-0051"
           },
           "asn": {
             "number": 55392,
@@ -13580,8 +13580,8 @@
             "geoname_id": 1153670
           },
           "location": {
-            "latitude": 18.7954,
-            "longitude": 98.9911,
+            "latitude": 18.7857,
+            "longitude": 98.9736,
             "accuracy_radius": 200,
             "time_zone": "Asia/Bangkok"
           },
@@ -17696,13 +17696,13 @@
             "geoname_id": 1835327
           },
           "location": {
-            "latitude": 35.8759,
-            "longitude": 128.6075,
+            "latitude": 35.8723,
+            "longitude": 128.5924,
             "accuracy_radius": 20,
             "time_zone": "Asia/Seoul"
           },
           "postal": {
-            "code": "41914"
+            "code": "419"
           },
           "asn": {
             "number": 4766,
